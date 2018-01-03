@@ -1,0 +1,19 @@
+{
+    "name": "natenolting/buad-3283-e-commerce-web-development",
+    "authors": [
+        {
+            "name": "Nate Nolting",
+            "email": "me@natenolting.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^1.22",
+        "mustache/mustache": "~2.5",
+        "paulbunyannet/bandolier": "^1.5",
+        "illuminate/support": "^5.5"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "description": "BUAD 3283: E-Commerce Web Development",
+    "homepage": "https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development"
+}
