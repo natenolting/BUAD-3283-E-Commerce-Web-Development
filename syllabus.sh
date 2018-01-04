@@ -6,4 +6,4 @@ php helpers/CombineSyllabus.php >/dev/null
 # generate the TOC
 node_modules/.bin/markdown-toc -i --maxdepth 3 syllabus.md
 # copy over the content from course_syllabus.md to README.md
-cat syllabus.md > README.md
+cat syllabus.md > README.md 
