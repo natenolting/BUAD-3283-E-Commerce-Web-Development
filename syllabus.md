@@ -4,7 +4,9 @@
 
 Bemidji State University  
 Memorial Hall Room 270  
-Tuesday/Thursday 2:00-3:15 p.m.  
+Tuesday/Thursday 2:00-3:15 p.m.
+
+<!-- toc -->
 
 ## Contact Info
 
@@ -13,7 +15,7 @@ Tuesday/Thursday 2:00-3:15 p.m.
 | **Instructor**   | Nate Nolting                       |
 | **Office**       | Paul Bunyan Communications         |
 | **Phone**        | 218-444-1107 (only in emergencies) |
-| **Email**        | naten@paulbunyan.net               |
+| **Email**        | natebsu@gmail.com                  |
 | **Office Hours** | 30 minutes after class             |
 
 ## Requirements
@@ -88,6 +90,36 @@ You will maintain your own GitHub repository for your assignments.
 
 A Slack account that will be used for messaging out of class. This will be the best way to ask a question out of class. You will receive a invite link in your syllabus.
 
+## Additional Resources
+
+### Texts
+
+**Electronic Commerce**  
+by Gary P. Schneider  
+11th Edition  
+ISBN-10: 1-285-42543-X  
+ISBN-13: 978-1-285-42543-6  
+Course Technology @2014
+  
+**Effortless E-Commerce with PHP and MySQL**  
+by Larry Ullman  
+ISBN-10: 0-321-94936-6  
+ISBN-13: 978-0-321-94936-3  
+
+**The Missing Link: An Introduction to Web Development and Programming**  
+by Michael Mendez  
+ISBN: 978-0-9897226-5-0  
+SUNY Fredonia 2014  
+(OPEN TEXTBOOK available for Free at http://textbooks.opensuny.org/the-missing-link-an-introduction-to-web-development-and-programming/)
+
+### Websites
+
+* Php http://www.php.net/
+* Mozilla Developer Network (MDN): https://developer.mozilla.org/en-US
+* Stack Overflow: https://stackoverflow.com
+* Reddit: https://www.reddit.com/user/fordlincolnhg/m/webdev/
+
+
 ## Grading
 
 Your final grade is based on a straight point calculation: points earned/points offered.  However, participation and attendance will be considered, but only if it will help your grade.
@@ -131,7 +163,7 @@ Not accepted unless you have prior approval.  Anything turned in after the due d
 
 Upon request, this document can be made available in alternative formats. If you have a documented disability and need accommodations for this course, please contact the Disability Services Office in 201 Sanford Hall; phone: (218) 755-3883; email DisabilityServices@bemidjistate.edu.  Minnesota Relay Service is available at 1-800-627-3529.
 
-## Academic integrity and general conduct
+## Academic Integrity and General Conduct
 
 You are responsible to read and abide by the rules contained within the student handbook: http://www.bemidjistate.edu/students/handbook/. Any form of academic dishonesty (e.g., cheating, plagiarism, and misrepresentation), inappropriate behavioral conduct, or general disruptive conduct will not be tolerated and will be dealt with in accordance with University Policy.
 
@@ -147,6 +179,7 @@ Get Syllabus and have a good week!!!
 
 1. Download and install software and decide where you will store your source code.
 2. Setup your own GitHub Account and let me know what your repository will be.
+  * Watch the syllabus repository at https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/tree/spring2018 to receive notifications of changes.
 3. Signup for the Slack channel with the link in Requirement section.
 4. Get your web hosting account setup and let me know what the url is.
 

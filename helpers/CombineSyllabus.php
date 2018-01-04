@@ -10,6 +10,8 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
  */
 class CombineSyllabus
 {
+
+    const FILE_NAME = "syllabus";
     /**
      * syllabus files and directory prefix
      */
@@ -28,7 +30,7 @@ class CombineSyllabus
      */
     public static function generate($directory)
     {
-        $syllabusFile = fopen("{$directory}/". self::SYLLABUS_PREFIX . self::EXTENSION, 'w');
+        $syllabusFile = fopen("{$directory}/". self::FILE_NAME . self::EXTENSION, 'w');
 
         foreach ([self::SYLLABUS_PREFIX, self::SCHEDULE_PREFIX] as $prefix) {
 
@@ -44,10 +46,9 @@ class CombineSyllabus
         }
 
         fclose($syllabusFile);
-        print "Syllabus files written to \"{$directory}/". self::SYLLABUS_PREFIX . self::EXTENSION . "\"!" . PHP_EOL;
+        print "Syllabus files written to \"{$directory}/". self::FILE_NAME . self::EXTENSION . "\"!" . PHP_EOL;
+
     }
 }
-// generate the schedule files if needed
-exec('php helpers/GenerateCourseSchedule.php 2018-01-09 2018-04-24 2,4');
+// and combine the syllabus files
 CombineSyllabus::generate(exec('pwd'));
-

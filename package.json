@@ -1,0 +1,10 @@
+{
+  "name": "BUAD-3283-E-Commerce-Web-Development",
+  "version": "1.0.0",
+  "repository": "https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development.git",
+  "author": "Nate Nolting <natebsu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-toc": "^1.2.0"
+  }
+}

@@ -4,4 +4,6 @@
 
 Bemidji State University  
 Memorial Hall Room 270  
-Tuesday/Thursday 2:00-3:15 p.m.  
+Tuesday/Thursday 2:00-3:15 p.m.
+
+<!-- toc -->
