@@ -8,61 +8,9 @@ Tuesday/Thursday 2:00-3:15 p.m.
 
 <!-- toc -->
 
-- [Contact Info](#contact-info)
-- [Requirements](#requirements)
-  * [Texts](#texts)
-  * [Web Hosting Account](#web-hosting-account)
-  * [Source Code](#source-code)
-  * [Software](#software)
-  * [GitHub](#github)
-  * [Slack](#slack)
-- [Additional Resources](#additional-resources)
-  * [Texts](#texts-1)
-  * [Websites](#websites)
-- [Grading](#grading)
-- [Extra Credit](#extra-credit)
-- [Assigned Reading](#assigned-reading)
-- [Assignments](#assignments)
-- [Midterm and Final](#midterm-and-final)
-  * [Note](#note-1)
-- [Authorized Absences](#authorized-absences)
-- [Late work](#late-work)
-- [Accommodations](#accommodations)
-- [Academic Integrity and General Conduct](#academic-integrity-and-general-conduct)
-- [Course Schedule](#course-schedule)
-  * [January 9th](#january-9th)
-  * [January 11th](#january-11th)
-  * [January 16th](#january-16th)
-  * [January 18th](#january-18th)
-  * [January 23rd](#january-23rd)
-  * [January 25th](#january-25th)
-  * [January 30th](#january-30th)
-  * [February 1st](#february-1st)
-  * [February 6th](#february-6th)
-  * [February 8th](#february-8th)
-  * [February 13th](#february-13th)
-  * [February 15th](#february-15th)
-  * [February 20th](#february-20th)
-  * [February 22nd](#february-22nd)
-  * [February 27th](#february-27th)
-  * [March 1st](#march-1st)
-  * [March 6th](#march-6th)
-  * [March 8th](#march-8th)
-  * [March 13th](#march-13th)
-  * [March 15th](#march-15th)
-  * [March 20th](#march-20th)
-  * [March 22nd](#march-22nd)
-  * [March 27th](#march-27th)
-  * [March 29th](#march-29th)
-  * [April 3rd](#april-3rd)
-  * [April 5th](#april-5th)
-  * [April 10th](#april-10th)
-  * [April 12th](#april-12th)
-  * [April 17th](#april-17th)
-  * [April 19th](#april-19th)
-  * [April 24th](#april-24th)
+##Course Description:
 
-<!-- tocstop -->
+WWW environment, browsers, Web 2.0, Ajax Client and programming techniques. Major topics include Web page design, Web-based multimedia/graphics, XHTML, W3C XHTML validation service, CSS AND JavaScript. Create Headings, Links, Images, Special characters, Tables, Lists, Forms, Positioning Elements, Embedded Style Sheets, Text Flow, Box Model, User Style sheet and Drop-Down Menu. Prerequisites: BUAD 2280 and any computer programming course. (Source: BSU 2015-2016 catalog)
 
 ## Contact Info
 
@@ -176,6 +124,51 @@ SUNY Fredonia 2014
 * Reddit: https://www.reddit.com/user/fordlincolnhg/m/webdev/
 
 
+## The Department of Business Administration Mission
+
+### Educate students through a learning-centered environment.
+
+To achieve its mission, the Department of Business Administration has adopted the following broad-based, student learning goal:
+
+* Graduates will be prepared for entry into careers in business and for contributions to their global and local communities.
+
+In addition, the Department of Business Administration has adopted the following program-level student learning outcomes *(starred outcomes are a focus of this course)*:
+
+1. &#9733; Graduates will demonstrate a foundational knowledge in the field of business.
+2. &#9733; Graduates will demonstrate information literacy.
+3. &#9733; Graduates will demonstrate ability to use practical business tools.
+4. &#9733; Graduates will demonstrate professional communication skills.
+4. &#9733; Graduates will demonstrate ability to work effectively as part of a team.
+5. &#9733; Graduates will demonstrate the ability to analyze complex business situations and ethical obligations in a realistic business environment.
+6. Graduates will demonstrate ability to analyze complex business situations and ethical obligations in a realistic business environment.
+
+## Course Objectives and Learning Outcomes
+
+After completing this course the students are able to do following:
+
+* Explain components for setting-up e-commerce site (DSLO# 1, 2, 5)
+* Build a simple web site that organizes information effectively (DSLO# 4, 5)
+* Identify an organization for information based on its inherent structure (chronological, alphabetic, etc.) (DSLO# 2)
+* Use HTML tags, elements and attributes in developing web sites (DSLO# 2, 3)
+* Use cascading style sheets (CSS) to create style standards for a web site (DSLO# 2, 3)
+* Create a navigational framework that matches the content and genre of the site (DSLO# 3)
+* Explain separation of concerns as it applies to the design and implementation of a web site (DSLO# 2)
+* Describe the issues involved in developing a web interface (DSLO# 2, 3)
+* Design and implement a web interface (DSLO# 2, 3)
+* Compare/contrast graphic media file format characteristics such as color depth, compression and CODEC (DSLO# 2)
+* Explain and compare media file formats including lossy vs. lossless compression, color palettes, streaming formats, and CODECs (DSLO# 2)
+* Develop Client-side scripts using JavaScript (DSLO# 2, 3)
+* Explain how server-side technology such as PHP works (DSLO# 2, 3)
+
+DSLO = Department Student Learning Outcomes
+
+| Learning outcomes | Measures |
+|-------------------|----------|
+| setting-up e-commerce site, building simple web site, designing web interface, and creating navigational framework | Reading chapters, take quizzes, hands-on experience, Discussion, and final exam|
+| Using HTML | Doing projects, and Hands-on experience in the Computer |
+| CSS, JavaScript, PHP, media files | Reading chapters, doing projects in the Computer, discussion, quiz and Final Exam |
+| Issue in developing web sites | Doing projects , quizzes and Final Exam |
+
 ## Grading
 
 Your final grade is based on a straight point calculation: points earned/points offered.  However, participation and attendance will be considered, but only if it will help your grade.
@@ -219,11 +212,11 @@ Not accepted unless you have prior approval.  Anything turned in after the due d
 
 Upon request, this document can be made available in alternative formats. If you have a documented disability and need accommodations for this course, please contact the Disability Services Office in 201 Sanford Hall; phone: (218) 755-3883; email DisabilityServices@bemidjistate.edu.  Minnesota Relay Service is available at 1-800-627-3529.
 
-## Academic Integrity and General Conduct
+## Academic integrity and general conduct
 
 You are responsible to read and abide by the rules contained within the student handbook: http://www.bemidjistate.edu/students/handbook/. Any form of academic dishonesty (e.g., cheating, plagiarism, and misrepresentation), inappropriate behavioral conduct, or general disruptive conduct will not be tolerated and will be dealt with in accordance with University Policy.
 
-## Course Schedule
+  ## Course Schedule
 
 This course schedule is tentative and subject to change. **ALL** assignments  are due no later than 12:01 a.m. on the date listed.
 
