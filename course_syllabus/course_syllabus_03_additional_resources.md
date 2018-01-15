@@ -27,3 +27,9 @@ SUNY Fredonia 2014
 * Stack Overflow: https://stackoverflow.com
 * Reddit: https://www.reddit.com/user/fordlincolnhg/m/webdev/
 
+#### Sandboxes
+
+* CodePen https://codepen.io/
+* JSFiddle https://jsfiddle.net/
+* JS Bin https://jsbin.com/?
+
