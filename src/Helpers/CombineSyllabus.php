@@ -1,16 +1,17 @@
-#!/usr/bin/env php
 <?php
-/**
- * Combine syllabus files
- */
-require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+namespace Helpers;
 
 /**
  * Class CombineSyllabus
+ * Combine syllabus files
+ * @package Helpers
  */
 class CombineSyllabus
 {
-
+    /**
+     * output base name
+     */
     const FILE_NAME = "syllabus";
     /**
      * syllabus files and directory prefix
@@ -40,7 +41,10 @@ class CombineSyllabus
                     if ($f === '.' || $f === '..' || substr($f, (strlen($f)-strlen(self::EXTENSION)), strlen($f)) !== self::EXTENSION) {
                         continue;
                     }
+                    // write this syllabus file to the output file
                     fwrite($syllabusFile, file_get_contents("{$directory}/{$prefix}/{$f}") . PHP_EOL);
+                    // Add separator between each block
+                    fwrite($syllabusFile, self::divider());
                 }
             }
         }
@@ -49,6 +53,13 @@ class CombineSyllabus
         print "Syllabus files written to \"{$directory}/". self::FILE_NAME . self::EXTENSION . "\"!" . PHP_EOL;
 
     }
+
+    /**
+     * markdown style hr tag
+     * @return string
+     */
+    private static function divider()
+    {
+      return PHP_EOL . "- - -\n\n";
+    }
 }
-// and combine the syllabus files
-CombineSyllabus::generate(exec('pwd'));

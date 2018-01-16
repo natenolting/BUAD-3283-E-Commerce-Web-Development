@@ -15,5 +15,10 @@
     "prefer-stable": true,
     "minimum-stability": "stable",
     "description": "BUAD 3283: E-Commerce Web Development",
-    "homepage": "https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development"
+    "homepage": "https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development",
+    "autoload": {
+        "psr-4": {
+            "Helpers\\": "src/Helpers"
+        }
+    }
 }

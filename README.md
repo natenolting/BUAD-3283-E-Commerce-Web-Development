@@ -8,69 +8,12 @@ Tuesday/Thursday 2:00-3:15 p.m.
 
 <!-- toc -->
 
-- [Course Description](#course-description)
-- [Contact Info](#contact-info)
-- [Requirements](#requirements)
-  * [Texts](#texts)
-  * [Web Hosting Account](#web-hosting-account)
-  * [Source Code](#source-code)
-  * [Software](#software)
-  * [GitHub](#github)
-  * [Slack](#slack)
-- [Additional Resources](#additional-resources)
-  * [Texts](#texts-1)
-  * [Websites](#websites)
-- [The Department of Business Administration Mission](#the-department-of-business-administration-mission)
-  * [Educate students through a learning-centered environment.](#educate-students-through-a-learning-centered-environment)
-- [Course Objectives and Learning Outcomes](#course-objectives-and-learning-outcomes)
-- [Grading](#grading)
-- [Extra Credit](#extra-credit)
-- [Assigned Reading](#assigned-reading)
-- [Assignments](#assignments)
-- [Midterm and Final](#midterm-and-final)
-  * [Note](#note-1)
-- [Authorized Absences](#authorized-absences)
-- [Late work](#late-work)
-- [Accommodations](#accommodations)
-- [Academic integrity and general conduct](#academic-integrity-and-general-conduct)
-- [Course Schedule](#course-schedule)
-  * [January 9th](#january-9th)
-  * [January 11th](#january-11th)
-  * [January 16th](#january-16th)
-  * [January 18th](#january-18th)
-  * [January 23rd](#january-23rd)
-  * [January 25th](#january-25th)
-  * [January 30th](#january-30th)
-  * [February 1st](#february-1st)
-  * [February 6th](#february-6th)
-  * [February 8th](#february-8th)
-  * [February 13th](#february-13th)
-  * [February 15th](#february-15th)
-  * [February 20th](#february-20th)
-  * [February 22nd](#february-22nd)
-  * [February 27th](#february-27th)
-  * [March 1st](#march-1st)
-  * [March 6th](#march-6th)
-  * [March 8th](#march-8th)
-  * [March 13th](#march-13th)
-  * [March 15th](#march-15th)
-  * [March 20th](#march-20th)
-  * [March 22nd](#march-22nd)
-  * [March 27th](#march-27th)
-  * [March 29th](#march-29th)
-  * [April 3rd](#april-3rd)
-  * [April 5th](#april-5th)
-  * [April 10th](#april-10th)
-  * [April 12th](#april-12th)
-  * [April 17th](#april-17th)
-  * [April 19th](#april-19th)
-  * [April 24th](#april-24th)
-
-<!-- tocstop -->
-
 ## Course Description
 
 WWW environment, browsers, Web 2.0, Ajax Client and programming techniques. Major topics include Web page design, Web-based multimedia/graphics, XHTML, W3C XHTML validation service, CSS AND JavaScript. Create Headings, Links, Images, Special characters, Tables, Lists, Forms, Positioning Elements, Embedded Style Sheets, Text Flow, Box Model, User Style sheet and Drop-Down Menu. Prerequisites: BUAD 2280 and any computer programming course. (Source: BSU 2015-2016 catalog)
+
+
+- - -
 
 ## Contact Info
 
@@ -81,6 +24,9 @@ WWW environment, browsers, Web 2.0, Ajax Client and programming techniques. Majo
 | **Phone**        | 218-444-1107 (only in emergencies) |
 | **Email**        | natebsu@gmail.com                  |
 | **Office Hours** | 30 minutes after class             |
+
+
+- - -
 
 ## Requirements
 
@@ -154,6 +100,9 @@ You will maintain your own GitHub repository for your assignments.
 
 A Slack account that will be used for messaging out of class. This will be the best way to ask a question out of class. You will receive a invite link in your syllabus.
 
+
+- - -
+
 ## Additional Resources
 
 ### Texts
@@ -190,6 +139,9 @@ SUNY Fredonia 2014
 * JS Bin https://jsbin.com/?
 
 
+
+- - -
+
 ## The Department of Business Administration Mission
 
 ### Educate students through a learning-centered environment.
@@ -207,6 +159,9 @@ In addition, the Department of Business Administration has adopted the following
 4. &#9733; Graduates will demonstrate ability to work effectively as part of a team.
 5. &#9733; Graduates will demonstrate the ability to analyze complex business situations and ethical obligations in a realistic business environment.
 6. Graduates will demonstrate ability to analyze complex business situations and ethical obligations in a realistic business environment.
+
+
+- - -
 
 ## Course Objectives and Learning Outcomes
 
@@ -235,6 +190,9 @@ DSLO = Department Student Learning Outcomes
 | CSS, JavaScript, PHP, media files | Reading chapters, doing projects in the Computer, discussion, quiz and Final Exam |
 | Issue in developing web sites | Doing projects , quizzes and Final Exam |
 
+
+- - -
+
 ## Grading
 
 Your final grade is based on a straight point calculation: points earned/points offered.  However, participation and attendance will be considered, but only if it will help your grade.
@@ -247,17 +205,29 @@ Your final grade is based on a straight point calculation: points earned/points 
 | D     | 60-69%               |
 | F     | 59% and below (fail) |
 
+
+- - -
+
 ## Extra Credit
 
 Extra credit may be available throughout the semester.  Do not count on extra credit though!  
+
+
+- - -
 
 ## Assigned Reading
 
 There may be multiple readings each week. Readings may consist of chapters from the textbook, companion readings, video viewings, interactive tools within the learning management system, the syllabus, and other items.
 
+
+- - -
+
 ## Assignments
 
 There will be multiple mini assignments that will be turned in through Github. These assignments will be due 12:01 a.m. on the Tuesday or Thursday the assignment it due.
+
+
+- - -
 
 ## Midterm and Final
 
@@ -266,25 +236,43 @@ There will be a midterm project that will be due at a date to be assigned by the
 ### Note
 The professor reserves the right to offer unannounced quizzes and assignments, and/or activities at any time.
 
+
+- - -
+
 ## Authorized Absences
 
 You have the choice whether to show up to class or not.  That being said, attendance and participation will only help your grade.  The instructor reserves the right to change the schedule of reading/or due date for assignments, so being in class is important.
+
+
+- - -
 
 ## Late work
 
 Not accepted unless you have prior approval.  Anything turned in after the due date will receive a failing grade.  
 
+
+- - -
+
 ## Accommodations
 
 Upon request, this document can be made available in alternative formats. If you have a documented disability and need accommodations for this course, please contact the Disability Services Office in 201 Sanford Hall; phone: (218) 755-3883; email DisabilityServices@bemidjistate.edu.  Minnesota Relay Service is available at 1-800-627-3529.
+
+
+- - -
 
 ## Academic integrity and general conduct
 
 You are responsible to read and abide by the rules contained within the student handbook: http://www.bemidjistate.edu/students/handbook/. Any form of academic dishonesty (e.g., cheating, plagiarism, and misrepresentation), inappropriate behavioral conduct, or general disruptive conduct will not be tolerated and will be dealt with in accordance with University Policy.
 
+
+- - -
+
   ## Course Schedule
 
 This course schedule is tentative and subject to change. **ALL** assignments  are due no later than 12:01 a.m. on the date listed.
+
+
+- - -
 
 ### January 9th
 
@@ -298,9 +286,15 @@ Get Syllabus and have a good week!!!
 3. Signup for the Slack channel with the link in Requirement section.
 4. Get your web hosting account setup and let me know what the url is.
 
+
+- - -
+
 ### January 11th
 
 No Class
+
+
+- - -
 
 ### January 16th
 
@@ -318,6 +312,9 @@ No Class
 #### Assignment
 
 * Read chapters 1-9 in _HTML and CSS: Design and Build Websites 1st Edition_
+
+
+- - -
 
 ### January 18th
 
@@ -394,111 +391,195 @@ No Class
 
 * Read chapters 1-9 in _HTML and CSS: Design and Build Websites 1st Edition_
 
+
+- - -
+
 ### January 23rd
 
 TBA
+
+
+- - -
 
 ### January 25th
 
 TBA
 
+
+- - -
+
 ### January 30th
 
 TBA
+
+
+- - -
 
 ### February 1st
 
 TBA
 
+
+- - -
+
 ### February 6th
 
 TBA
+
+
+- - -
 
 ### February 8th
 
 TBA
 
+
+- - -
+
 ### February 13th
 
 TBA
+
+
+- - -
 
 ### February 15th
 
 TBA
 
+
+- - -
+
 ### February 20th
 
 TBA
+
+
+- - -
 
 ### February 22nd
 
 TBA
 
+
+- - -
+
 ### February 27th
 
 TBA
+
+
+- - -
 
 ### March 1st
 
 TBA
 
+
+- - -
+
 ### March 6th
 
 TBA
+
+
+- - -
 
 ### March 8th
 
 TBA
 
+
+- - -
+
 ### March 13th
 
 TBA
+
+
+- - -
 
 ### March 15th
 
 TBA
 
+
+- - -
+
 ### March 20th
 
 TBA
+
+
+- - -
 
 ### March 22nd
 
 TBA
 
+
+- - -
+
 ### March 27th
 
 TBA
+
+
+- - -
 
 ### March 29th
 
 TBA
 
+
+- - -
+
 ### April 3rd
 
 TBA
+
+
+- - -
 
 ### April 5th
 
 TBA
 
+
+- - -
+
 ### April 10th
 
 TBA
+
+
+- - -
 
 ### April 12th
 
 TBA
 
+
+- - -
+
 ### April 17th
 
 TBA
+
+
+- - -
 
 ### April 19th
 
 TBA
 
+
+- - -
+
 ### April 24th
 
 TBA
+
+
+- - -
 

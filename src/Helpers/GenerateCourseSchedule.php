@@ -1,7 +1,9 @@
-#!/usr/bin/env php
 <?php
 
+namespace Helpers;
+
 use Carbon\Carbon;
+use Mustache_Engine;
 
 /**
  * Create course schedule files from a stub.
@@ -22,7 +24,6 @@ use Carbon\Carbon;
  * Start dates on January 9th, 2018, end on April 24th and make schedules for tuesdays and thursdays
  * $ php helpers/GenerateCourseSchedule.php 2018-01-09 2018-04-24 2,4
  */
-require_once dirname(__DIR__) . '/vendor/autoload.php';
 
 
 class GenerateCourseSchedule
@@ -81,7 +82,3 @@ class GenerateCourseSchedule
 
     }
 }
-$args = isset($_SERVER['argv']) ? $_SERVER['argv'] : [];
-$directory = exec('pwd');
-GenerateCourseSchedule::generate($args, $directory);
-
