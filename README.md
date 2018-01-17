@@ -8,6 +8,66 @@ Tuesday/Thursday 2:00-3:15 p.m.
 
 <!-- toc -->
 
+- [Course Description](#course-description)
+- [Contact Info](#contact-info)
+- [Requirements](#requirements)
+  * [Texts](#texts)
+  * [Web Hosting Account](#web-hosting-account)
+  * [Source Code](#source-code)
+  * [Software](#software)
+  * [GitHub](#github)
+  * [Slack](#slack)
+- [Additional Resources](#additional-resources)
+  * [Texts](#texts-1)
+  * [Websites](#websites)
+- [The Department of Business Administration Mission](#the-department-of-business-administration-mission)
+  * [Educate students through a learning-centered environment.](#educate-students-through-a-learning-centered-environment)
+- [Course Objectives and Learning Outcomes](#course-objectives-and-learning-outcomes)
+- [Grading](#grading)
+- [Extra Credit](#extra-credit)
+- [Assigned Reading](#assigned-reading)
+- [Assignments](#assignments)
+- [Midterm and Final](#midterm-and-final)
+  * [Note](#note-1)
+- [Authorized Absences](#authorized-absences)
+- [Late work](#late-work)
+- [Accommodations](#accommodations)
+- [Academic integrity and general conduct](#academic-integrity-and-general-conduct)
+- [Course Schedule](#course-schedule)
+  * [January 9th](#january-9th)
+  * [January 11th](#january-11th)
+  * [January 16th](#january-16th)
+  * [January 18th](#january-18th)
+  * [January 23rd](#january-23rd)
+  * [January 25th](#january-25th)
+  * [January 30th](#january-30th)
+  * [February 1st](#february-1st)
+  * [February 6th](#february-6th)
+  * [February 8th](#february-8th)
+  * [February 13th](#february-13th)
+  * [February 15th](#february-15th)
+  * [February 20th](#february-20th)
+  * [February 22nd](#february-22nd)
+  * [February 27th](#february-27th)
+  * [March 1st](#march-1st)
+  * [March 6th](#march-6th)
+  * [March 8th](#march-8th)
+  * [March 13th](#march-13th)
+  * [March 15th](#march-15th)
+  * [March 20th](#march-20th)
+  * [March 22nd](#march-22nd)
+  * [March 27th](#march-27th)
+  * [March 29th](#march-29th)
+  * [April 3rd](#april-3rd)
+  * [April 5th](#april-5th)
+  * [April 10th](#april-10th)
+  * [April 12th](#april-12th)
+  * [April 17th](#april-17th)
+  * [April 19th](#april-19th)
+  * [April 24th](#april-24th)
+
+<!-- tocstop -->
+
 ## Course Description
 
 WWW environment, browsers, Web 2.0, Ajax Client and programming techniques. Major topics include Web page design, Web-based multimedia/graphics, XHTML, W3C XHTML validation service, CSS AND JavaScript. Create Headings, Links, Images, Special characters, Tables, Lists, Forms, Positioning Elements, Embedded Style Sheets, Text Flow, Box Model, User Style sheet and Drop-Down Menu. Prerequisites: BUAD 2280 and any computer programming course. (Source: BSU 2015-2016 catalog)
@@ -299,33 +359,24 @@ No Class
 ### January 16th
 
 #### Discussion
-* Review syllabus, go over any issues with the setup from last week.
-* How the web works
+* **Review syllabus, go over any issues with the setup from last week.**
+* **How the web works**
     * Domain Name System (DNS) https://en.wikipedia.org/wiki/Domain_Name_System
     * Transport Layer Security (TLS) https://en.wikipedia.org/wiki/Transport_Layer_Security
-* Elements of an E-Commerce web application.
+* **Elements of an E-Commerce web application.**
     * Payment Gateway for handling transactions https://en.wikipedia.org/wiki/Payment_gateway
     * TLS for transferring data
     * Handling sensitive data
         * Sanitize in, encode out https://security.stackexchange.com/a/95330
-
-#### Assignment
-
-* Read chapters 1-9 in _HTML and CSS: Design and Build Websites 1st Edition_
-
-
-- - -
-
-### January 18th
-
-#### Discussion
-* How a website is created
+* **How a web page is created**
   * HTML https://en.wikipedia.org/wiki/HTML
   * Body for page structure and display
   * Head for page instructions
   * CSS for styling
   * Javascript for interactions and DOM manipulations
   * Includes such as images and other media
+
+#### How a web page is created
 
 ##### HTML page structure
 
@@ -390,6 +441,17 @@ No Class
 #### Assignment
 
 * Read chapters 1-9 in _HTML and CSS: Design and Build Websites 1st Edition_
+* Setup Hosting Account and Git repository on GitHub
+
+
+- - -
+
+### January 18th
+
+#### Discussion
+  * **Source Control Management (SCM)**
+
+#### Source Control Management (SCM)
 
 
 - - -
