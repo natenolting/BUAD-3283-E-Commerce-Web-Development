@@ -441,7 +441,7 @@ No Class
 #### Assignment
 
 * Read chapters 1-9 in _HTML and CSS: Design and Build Websites 1st Edition_
-* Setup Hosting Account and Git repository on GitHub
+* Setup Hosting Account and Git repository on GitHub, **due before class on 1-18**
 
 
 - - -
