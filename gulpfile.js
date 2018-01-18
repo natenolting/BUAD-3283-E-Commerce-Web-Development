@@ -44,6 +44,6 @@ function watcher() {
     // Watch files
     gulp.watch(['src/**/*.*','course_schedule/**/*.*','course_syllabus/**/*.*'])
         .on('all', gulp.series(buildSyllabus, browser.reload));
-    gulp.watch(['assignments/**/*.*'])
+    gulp.watch(['assignments/**/*.*', 'sandbox/**/*.*'])
         .on('all', gulp.series(browser.reload));
 }
