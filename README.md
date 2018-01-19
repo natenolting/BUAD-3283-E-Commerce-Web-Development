@@ -449,9 +449,144 @@ No Class
 ### January 18th
 
 #### Discussion
-  * **Source Control Management (SCM)**
+  * Files for a web site
+  * Structural / Semantic tags
 
-#### Source Control Management (SCM)
+#### Files for a web site
+
+##### Index
+
+* `index.html`, `index.php`, others depending on server language
+* Entry point of web site
+
+##### Cascading Style Sheet (CSS)
+
+* `.css` file extension
+* Holds styling for the site
+* Linked in the head typically with `<link rel="stylesheet" href="/link/to/css/file.css">`
+
+##### Javascript
+
+* `.js` file extension    
+* Might be library file or a custom script
+* Linked in the head or at the end of the body tags in the HTML with `<script src="/link/to/script.js"></script>`
+
+##### Other Files
+
+* `.htaccess` for Apache server instructions
+* `robots.txt` for instructions given to search engines http://www.robotstxt.org/
+* Verification files for 3rd party tools, ie. Google Analytics
+
+#### Structural / Semantic tags
+
+##### Structural Tags
+
+* Meant for layout of a web page
+* Typically are block elements
+* Give structure to pages
+* Used for header, footer, navigation, articles, etc.
+* Include `div`, `p`, `ul`, `ol`, `h1` &#8594; `h6`, `br`, `hr`, `table`, etc.
+
+##### Semantic Tags
+
+* Meant to describe elements
+* Used inside structural elements to give content more meaning
+* Typically bad practice to include structural elements inside a semantic tag: `<p><strong>I'm strong</strong></p>` rather than `<strong><p>I'm strong but invalid</p></strong>`
+* Include `em`, `strong`, `code`, `blockquote`, `span`, and many more  
+* Just pick the tag that seems the most appropriate
+
+##### Tables
+
+* Typically only of tabular data
+* starts with `table` with rows `tr` that wrap a list of columns `td`
+
+**Table example**
+
+```html
+<table>
+  <tr>
+    <th>Foo</th>
+    <th>Bar</th>
+    <th>Baz</th>
+  </tr>
+  <tr>
+    <td>Foo</td>
+    <td>Bar</td>
+    <td>Baz</td>
+  </tr>
+</table>
+
+```
+Makes:
+
+| Foo | Bar | Baz |
+|-----|-----|-----|
+| Foo | Bar | Baz |
+
+
+##### Lists
+
+* Unordered `ul` creates a bulleted list by default
+* Ordered `ol` create a numbered list by default
+* List items wrapped with `li` tags
+
+**Link example**
+
+```
+<ul>
+  <li>Foo</li>
+  <li>Bar</li>
+  <li>Bazz</li>
+</ul>
+
+<ol>
+  <li>Foo</li>
+  <li>Bar</li>
+  <li>Bazz</li>
+</ul>
+
+```
+
+Makes:
+
+* Foo
+* Bar
+* Bazz
+
+
+1. Foo
+2. Bar
+3. Bazz
+
+
+##### Links
+
+* Links can act as semantic or structural
+* Links can link to different pages and target specific place on a page
+* Links can target an app, open an email message, prompt a phone call, etc.
+
+**Link Examples**
+
+```html
+
+<!-- link to another page -->
+<a href-"/link/to/another/page.html">Link to another page</a>
+
+<!-- link to an external page -->
+<a href="https://google.com">Link to Google</a>
+
+<!-- link to a specific point on a page... -->
+<a href="#anchor">Link to an anchor</a>
+<!-- ...then at the point that the above should link to -->
+<a name="anchor" id="anchor"></a>
+
+<!-- link that opens an email -->
+<a href="mailto:somone@example.com">Link to Email</a>
+
+<!-- link to call a number -->
+<a href="tel:1234567890">Call a number</a>
+
+```
 
 
 - - -
@@ -460,12 +595,20 @@ No Class
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_05_January_23.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_05_January_23.md)
+
 
 - - -
 
 ### January 25th
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_06_January_25.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_06_January_25.md)
 
 
 - - -
@@ -474,12 +617,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_07_January_30.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_07_January_30.md)
+
 
 - - -
 
 ### February 1st
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_08_February_01.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_08_February_01.md)
 
 
 - - -
@@ -488,12 +639,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_09_February_06.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_09_February_06.md)
+
 
 - - -
 
 ### February 8th
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_10_February_08.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_10_February_08.md)
 
 
 - - -
@@ -502,12 +661,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_11_February_13.md)
+
 
 - - -
 
 ### February 15th
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_12_February_15.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_12_February_15.md)
 
 
 - - -
@@ -516,12 +683,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_13_February_20.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_13_February_20.md)
+
 
 - - -
 
 ### February 22nd
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_14_February_22.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_14_February_22.md)
 
 
 - - -
@@ -530,12 +705,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_15_February_27.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_15_February_27.md)
+
 
 - - -
 
 ### March 1st
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_16_March_01.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_16_March_01.md)
 
 
 - - -
@@ -544,12 +727,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_17_March_06.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_17_March_06.md)
+
 
 - - -
 
 ### March 8th
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_18_March_08.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_18_March_08.md)
 
 
 - - -
@@ -558,12 +749,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_19_March_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_19_March_13.md)
+
 
 - - -
 
 ### March 15th
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_20_March_15.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_20_March_15.md)
 
 
 - - -
@@ -572,12 +771,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_21_March_20.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_21_March_20.md)
+
 
 - - -
 
 ### March 22nd
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_22_March_22.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_22_March_22.md)
 
 
 - - -
@@ -586,12 +793,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_23_March_27.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_23_March_27.md)
+
 
 - - -
 
 ### March 29th
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_24_March_29.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_24_March_29.md)
 
 
 - - -
@@ -600,12 +815,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_25_April_03.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_25_April_03.md)
+
 
 - - -
 
 ### April 5th
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_26_April_05.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_26_April_05.md)
 
 
 - - -
@@ -614,12 +837,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_27_April_10.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_27_April_10.md)
+
 
 - - -
 
 ### April 12th
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_28_April_12.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_28_April_12.md)
 
 
 - - -
@@ -628,6 +859,10 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_29_April_17.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_29_April_17.md)
+
 
 - - -
 
@@ -635,12 +870,20 @@ TBA
 
 TBA
 
+####Assignment:
+
+See [course_assignment/course_assignment_30_April_19.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_30_April_19.md)
+
 
 - - -
 
 ### April 24th
 
 TBA
+
+####Assignment:
+
+See [course_assignment/course_assignment_31_April_24.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_31_April_24.md)
 
 
 - - -
