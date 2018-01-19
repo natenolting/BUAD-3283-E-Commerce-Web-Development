@@ -4,6 +4,11 @@
   * Files for a web site
   * Structural / Semantic tags
 
+####Assignment
+
+See [course_assignment/course_assignment_04_January_18.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_04_January_18.md)
+
+
 #### Files for a web site
 
 ##### Index
@@ -50,7 +55,8 @@
 ##### Tables
 
 * Typically only of tabular data
-* starts with `table` with rows `tr` that wrap a list of columns `td`
+* Starts with `table` with rows `tr` that wrap a list of columns `td`
+* Head row has `th` column tags
 
 **Table example**
 

@@ -284,7 +284,7 @@ There may be multiple readings each week. Readings may consist of chapters from 
 
 ## Assignments
 
-There will be multiple mini assignments that will be turned in through Github. These assignments will be due 12:01 a.m. on the Tuesday or Thursday the assignment it due.
+There will be multiple mini assignments that will be turned in through Github. These assignments will be due 12:01 a.m. on the Tuesday or Thursday the assignment it due unless specified in the Course Assignments.
 
 
 - - -
@@ -452,6 +452,11 @@ No Class
   * Files for a web site
   * Structural / Semantic tags
 
+####Assignment
+
+See [course_assignment/course_assignment_04_January_18.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_04_January_18.md)
+
+
 #### Files for a web site
 
 ##### Index
@@ -498,7 +503,8 @@ No Class
 ##### Tables
 
 * Typically only of tabular data
-* starts with `table` with rows `tr` that wrap a list of columns `td`
+* Starts with `table` with rows `tr` that wrap a list of columns `td`
+* Head row has `th` column tags
 
 **Table example**
 
