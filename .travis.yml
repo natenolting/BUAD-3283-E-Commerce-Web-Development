@@ -14,5 +14,5 @@ before_install:
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
 script:
-  - bash ./syllabus.sh
+  - yarn run gulp production
   - cat syllabus.md

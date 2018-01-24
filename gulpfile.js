@@ -31,7 +31,7 @@ function buildSyllabus() {
   return new Promise(function(resolve, reject) {
       gulp.src('./', {read:false})
           .pipe(debug())
-          .pipe(exec('bash syllabus.sh'));
+          .pipe(exec('bash ./syllabus.sh'));
       resolve();
     });
 }
