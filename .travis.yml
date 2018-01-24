@@ -8,4 +8,6 @@ before_install:
   - yarn
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
-script: bash ./syllabus.sh
+script:
+  - bash ./syllabus.sh
+  - cat syllabus.md
