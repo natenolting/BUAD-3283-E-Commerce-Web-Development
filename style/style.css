@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  font-family: 'Roboto', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
+h3 {
+  border-left: 5px solid #ccc;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+h4 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 1.75rem;
+
+}
+
+.table-bordered-bottom td {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.table-bordered-bottom thead th {
+  border-bottom: 4px solid #ccc;
+  padding-bottom: 5px;
+}
