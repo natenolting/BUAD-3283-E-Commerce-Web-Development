@@ -1,4 +1,6 @@
 language: php
+php:
+  - '7.0'
 before_install:
   - sudo apt-get update > /dev/null
   - sudo apt-get install nodejs
