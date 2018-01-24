@@ -1,4 +1,4 @@
-# Course Assignment for January 16th, Due 1-23 before class
+# Course Assignment for January 16th, Due 1-25 before class
 
 ## Reading
 
