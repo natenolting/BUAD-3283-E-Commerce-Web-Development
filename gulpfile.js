@@ -9,28 +9,21 @@ var markdown      = require('gulp-markdown');
 var insert        = require('gulp-insert')
 var markdownPdf   = require('gulp-markdown-pdf');
 var replace       = require('gulp-replace');
-var fs = require('fs');
+var fs            = require('fs');
 require('dotenv').config();
 
 var packageData = JSON.parse(fs.readFileSync('./package.json'));
 
-// build task
-gulp.task('build', gulp.series(buildSyllabus));
-
-// compile task
-gulp.task('render', gulp.series(renderSyllabusToHtml, renderSyllabusToPDF));
-
 // Default task
-gulp.task('default', gulp.series('build', 'render', server, watcher));
+gulp.task('default', gulp.series(buildSyllabus, renderSyllabusToHtml, renderSyllabusToPDF, server, watcher));
 
 // Production task
-gulp.task('production', gulp.series('build','render'));
+gulp.task('production', gulp.series(buildSyllabus, renderSyllabusToHtml, renderSyllabusToPDF));
 
 // Build files
 function buildSyllabus() {
   return new Promise(function(resolve, reject) {
       gulp.src('./', {read:false})
-          .pipe(debug())
           .pipe(exec('bash ./syllabus.sh'));
       resolve();
     });
@@ -44,7 +37,7 @@ function renderSyllabusToPDF() {
               paperFormat: 'Letter',
               paperOrientation: 'portrait'
           }))
-            .pipe(gulp.dest('dist'));
+            .pipe(gulp.dest('./'));
       resolve();
     });
 }
@@ -67,8 +60,8 @@ function renderSyllabusToHtml() {
         )
           .pipe(insert.append('</div></body>'+
           '</html>'))
-          .pipe(replace('<table', '<table class="table table-bordered-bottom table-sm"'))
-          .pipe(gulp.dest('dist'));
+          .pipe(replace('<table', '<table class="table table-bordered-bottom"'))
+          .pipe(gulp.dest('./'));
       resolve();
     });
 }

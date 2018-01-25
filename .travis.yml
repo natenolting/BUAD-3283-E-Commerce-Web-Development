@@ -1,18 +1,21 @@
 language: php
 php:
-  - '7.0'
+- '7.0'
 cache:
   directories:
   - node_modules
-  - $HOME/.npm
-  - $HOME/.composer/cache/files
+  - "$HOME/.npm"
+  - "$HOME/.composer/cache/files"
 before_install:
-  - sudo apt-get update > /dev/null
-  - sudo apt-get install -y nodejs
-  - npm install -g yarn
-  - yarn
-  - composer self-update
-  - composer install --prefer-source --no-interaction --dev
+- sudo apt-get update > /dev/null
+- sudo apt-get install -y nodejs
+- npm install -g yarn
+- yarn
+- composer self-update
+- composer install --prefer-source --no-interaction --dev
 script:
-  - yarn run gulp production
-  - cat syllabus.md
+- yarn run gulp production
+- cat syllabus.md
+env:
+  global:
+    secure: XlbtfxXIEvN9kT0hFLtAoNr/V2XqqFZnGQaA12ypPTsTj5/L54SjJ+mIYXE1tt3rFsKEgrCaXHSG42afumUXhcJ1/okX5r+Xzk0hrJ0+N86uMXcaO5cIIjHc0esh/p+iw3hCY7fhjOmorVXb59fDoCs6uODdh5SBCMikZCCxbEBHTIFlcyNpZFjIBhbKnlyyLqoql+Zefzbk8JEJk6CEg3WtLULqCdomwT9bd3de17QQ0yYqkXEL3OHWCluMP4VtHhMiZYCvzP+6MhPwBmu1I28lpk8sYGNvet5Zhpf5yuXne2j99/GW4BDFBA9kD5s1u2vJ00Ug8RxaGBXc5kslASAMnpzb/8REJ5dFltXJf2I7Qy2aIKKqyNu8iq2FeTZNAX/yFWq70cbl/4cmE3cijEpAX7ne9YInvKvGhXQfQYjEsZcoKZJu0hIPLP4vabYNbDbiX2DvimbP1CKko4mVBoTTDutFGxoJ/6D9z6vQmItm4eEt8fc4Y3ie524yronyvOtqNrt5KX7WV/1X+skQZViUnzjpPPjwSdo5q5jbyT0cF9ElziQobMM3FHtllAejTel0XMq6bmbeaaxFIsP5H/rPCNB80KlZ20P5CsG2wXu3wqt6N56e6G0n1vBIwFcXu+A0e673WsVbSTyYcoXhfEPEDrRQOvKfjbvvSDy6p4o=

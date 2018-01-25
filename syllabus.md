@@ -8,66 +8,6 @@ Tuesday/Thursday 2:00-3:15 p.m.
 
 <!-- toc -->
 
-- [Course Description](#course-description)
-- [Contact Info](#contact-info)
-- [Requirements](#requirements)
-  * [Texts](#texts)
-  * [Web Hosting Account](#web-hosting-account)
-  * [Source Code](#source-code)
-  * [Software](#software)
-  * [GitHub](#github)
-  * [Slack](#slack)
-- [Additional Resources](#additional-resources)
-  * [Texts](#texts-1)
-  * [Websites](#websites)
-- [The Department of Business Administration Mission](#the-department-of-business-administration-mission)
-  * [Educate students through a learning-centered environment.](#educate-students-through-a-learning-centered-environment)
-- [Course Objectives and Learning Outcomes](#course-objectives-and-learning-outcomes)
-- [Grading](#grading)
-- [Extra Credit](#extra-credit)
-- [Assigned Reading](#assigned-reading)
-- [Assignments](#assignments)
-- [Midterm and Final](#midterm-and-final)
-  * [Note](#note-1)
-- [Authorized Absences](#authorized-absences)
-- [Late work](#late-work)
-- [Accommodations](#accommodations)
-- [Academic integrity and general conduct](#academic-integrity-and-general-conduct)
-- [Course Schedule](#course-schedule)
-  * [January 9th](#january-9th)
-  * [January 11th](#january-11th)
-  * [January 16th](#january-16th)
-  * [January 18th](#january-18th)
-  * [January 23rd](#january-23rd)
-  * [January 25th](#january-25th)
-  * [January 30th](#january-30th)
-  * [February 1st](#february-1st)
-  * [February 6th](#february-6th)
-  * [February 8th](#february-8th)
-  * [February 13th](#february-13th)
-  * [February 15th](#february-15th)
-  * [February 20th](#february-20th)
-  * [February 22nd](#february-22nd)
-  * [February 27th](#february-27th)
-  * [March 1st](#march-1st)
-  * [March 6th](#march-6th)
-  * [March 8th](#march-8th)
-  * [March 13th](#march-13th)
-  * [March 15th](#march-15th)
-  * [March 20th](#march-20th)
-  * [March 22nd](#march-22nd)
-  * [March 27th](#march-27th)
-  * [March 29th](#march-29th)
-  * [April 3rd](#april-3rd)
-  * [April 5th](#april-5th)
-  * [April 10th](#april-10th)
-  * [April 12th](#april-12th)
-  * [April 17th](#april-17th)
-  * [April 19th](#april-19th)
-  * [April 24th](#april-24th)
-
-<!-- tocstop -->
-
 ## Course Description
 
 WWW environment, browsers, Web 2.0, Ajax Client and programming techniques. Major topics include Web page design, Web-based multimedia/graphics, XHTML, W3C XHTML validation service, CSS AND JavaScript. Create Headings, Links, Images, Special characters, Tables, Lists, Forms, Positioning Elements, Embedded Style Sheets, Text Flow, Box Model, User Style sheet and Drop-Down Menu. Prerequisites: BUAD 2280 and any computer programming course. (Source: BSU 2015-2016 catalog)
@@ -84,6 +24,7 @@ WWW environment, browsers, Web 2.0, Ajax Client and programming techniques. Majo
 | **Phone**        | 218-444-1107 (only in emergencies) |
 | **Email**        | natebsu@gmail.com                  |
 | **Office Hours** | 30 minutes after class             |
+
 
 - - -
 
@@ -172,7 +113,7 @@ by Gary P. Schneider
 ISBN-10: 1-285-42543-X  
 ISBN-13: 978-1-285-42543-6  
 Course Technology @2014
-
+  
 **Effortless E-Commerce with PHP and MySQL**  
 by Larry Ullman  
 ISBN-10: 0-321-94936-6  
@@ -328,7 +269,7 @@ You are responsible to read and abide by the rules contained within the student 
 
   ## Course Schedule
 
-This course schedule is tentative and subject to change. **ALL** assignments  are due no later than 12:01 a.m. on the date listed.
+This course schedule is tentative and subject to change. **ALL** assignments  are due no later than 12:01 a.m. on the date listed unless otherwise noted.
 
 
 - - -
@@ -341,7 +282,7 @@ Get Syllabus and have a good week!!!
 
 1. Download and install software and decide where you will store your source code.
 2. Setup your own GitHub Account and let me know what your repository will be.
-  * Watch the syllabus repository at https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/tree/spring2018 to receive notifications of changes.
+  * Watch the syllabus repository at https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development to receive notifications of changes.
 3. Signup for the Slack channel with the link in Requirement section.
 4. Get your web hosting account setup and let me know what the url is.
 
@@ -598,7 +539,15 @@ Makes:
 
 ### January 23rd
 
-TBA
+#### Discussion
+
+##### Source Control
+
+* Discussion on how to get code changes into the cloud on GitHub.
+
+![Atom to GitHub Desktop to GitHub](http://www.natenolting.com/wp-content/uploads/2018/01/source-code.png)
+
+[There are quite a few GIU tools for getting code into source control.](https://git-scm.com/download/gui/windows) When working with [GitHub](https://github.com/) it seems that the easiest route to take would be to use [Atom](https://atom.io/) for edits, then use [GitHub Desktop](https://desktop.github.com/) for interacting with your remote repository. The tools a developer picks to complete a task or solve a problem is largely immaterial as long as the end result is successful.
 
 #### Assignment:
 
@@ -892,3 +841,4 @@ See [course_assignment/course_assignment_31_April_24.md](https://github.com/nate
 
 
 - - -
+
