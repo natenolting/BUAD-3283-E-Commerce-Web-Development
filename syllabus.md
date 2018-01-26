@@ -386,7 +386,7 @@ No Class
 
 - - -
 
-### January 18th
+  ### January 18th
 
 #### Discussion
   * Files for a web site
@@ -558,7 +558,7 @@ See [course_assignment/course_assignment_05_January_23.md](https://github.com/na
 
 ### January 25th
 
-TBA
+#### Images and media
 
 #### Assignment:
 

@@ -1,6 +1,6 @@
 ### January 25th
 
-TBA
+#### Images and media
 
 #### Assignment:
 
