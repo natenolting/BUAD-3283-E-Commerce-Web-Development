@@ -14,11 +14,17 @@ require('dotenv').config();
 
 var packageData = JSON.parse(fs.readFileSync('./package.json'));
 
+// Build task
+gulp.task('build', gulp.series(buildSyllabus));
+
+// Render task
+gulp.task('render', gulp.series(renderSyllabusToHtml, renderSyllabusToPDF));
+
 // Default task
-gulp.task('default', gulp.series(buildSyllabus, renderSyllabusToHtml, renderSyllabusToPDF, server, watcher));
+gulp.task('default', gulp.series('build', server, watcher));
 
 // Production task
-gulp.task('production', gulp.series(buildSyllabus, renderSyllabusToHtml, renderSyllabusToPDF));
+gulp.task('production', gulp.series('build', 'render'));
 
 // Build files
 function buildSyllabus() {
