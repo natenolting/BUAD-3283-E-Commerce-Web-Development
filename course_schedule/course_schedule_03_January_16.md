@@ -1,6 +1,11 @@
 ### January 16th
 
+#### Assignment
+
+See [course_assignment/course_assignment_03_January_16.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_03_January_16.md)
+
 #### Discussion
+
 * **Review syllabus, go over any issues with the setup from last week.**
 * **How the web works**
     * Domain Name System (DNS) https://en.wikipedia.org/wiki/Domain_Name_System
@@ -79,8 +84,3 @@
 ###### Body
 * Contains the visual output of the page
 * Contained within `<body></body>`
-
-#### Assignment
-
-* Read chapters 1-9 in _HTML and CSS: Design and Build Websites 1st Edition_
-* Setup Hosting Account and Git repository on GitHub, **due before class on 1-18**

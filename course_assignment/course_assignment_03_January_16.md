@@ -2,7 +2,11 @@
 
 ## Reading
 
-Read Chapters 1-9 in *HTML and CSS: Design and Build Websites 1st Edition*
+* Read chapters 1-9 in _HTML and CSS: Design and Build Websites 1st Edition_
+
+## Accounts
+
+* Setup Hosting Account and Git repository on GitHub
 
 ## Exercise
 
