@@ -25,11 +25,15 @@ class GenerateSyllabus implements GenerateFilesInterface
      * schedule files and directory prefix
      */
     protected $schedulePrefix = 'course_schedule';
+
+    /**
+     * notes files and directory prefix
+     */
+    protected $notesPrefix = 'course_notes';
     /**
      * @param string $extension file extension
      */
     protected $extension = '.md';
-
     /**
      * @var
      */
@@ -86,31 +90,6 @@ class GenerateSyllabus implements GenerateFilesInterface
     }
 
     /**
-     * markdown style hr tag
-     * @return string
-     */
-    private function divider()
-    {
-      return PHP_EOL . "- - -\n\n";
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getExtension()
-    {
-        return $this->extension;
-    }
-
-    /**
-     * @param mixed $extension
-     */
-    public function setExtension($extension)
-    {
-        $this->extension = $extension;
-    }
-
-    /**
      * @return mixed
      */
     public function getDirectory()
@@ -145,6 +124,22 @@ class GenerateSyllabus implements GenerateFilesInterface
     /**
      * @return mixed
      */
+    public function getExtension()
+    {
+        return $this->extension;
+    }
+
+    /**
+     * @param mixed $extension
+     */
+    public function setExtension($extension)
+    {
+        $this->extension = $extension;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getSyllabusPrefix()
     {
         return $this->syllabusPrefix;
@@ -172,5 +167,25 @@ class GenerateSyllabus implements GenerateFilesInterface
     public function setSchedulePrefix($schedulePrefix)
     {
         $this->schedulePrefix = $schedulePrefix;
+    }
+
+    public function getNotesPrefix()
+    {
+      return $this->notesPrefix;
+    }
+
+    public function setNotesPrefix($value = null)
+    {
+      $this->notesPrefix = $value;
+      return $this;
+    }
+
+    /**
+     * markdown style hr tag
+     * @return string
+     */
+    private function divider()
+    {
+      return PHP_EOL . "- - -\n\n";
     }
 }

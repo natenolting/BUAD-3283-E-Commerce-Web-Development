@@ -4,6 +4,7 @@
 # like ['2018-01-09','2018-04-24','2,4', pwd]
 php -r "require_once __DIR__ . '/vendor/autoload.php'; \$schedule= new \\Helpers\\Generate\\GenerateCourseSchedule(['2018-01-09','2018-04-24','2,4', exec('pwd')]); \$schedule->generate();" \
 && php -r "require_once __DIR__ . '/vendor/autoload.php'; \$assignments= new \\Helpers\\Generate\\GenerateCourseAssignment(['2018-01-09','2018-04-24','2,4', exec('pwd')]); \$assignments->generate();" \
+&& php -r "require_once __DIR__ . '/vendor/autoload.php'; \$notes= new \\Helpers\\Generate\\GenerateCourseNotes(['2018-01-09','2018-04-24','2,4', exec('pwd')]); \$notes->generate();" \
 && php -r "require_once __DIR__ . '/vendor/autoload.php';  \$syllabus= new \\Helpers\\Generate\\GenerateSyllabus(['directory' => exec('pwd')]); \$syllabus->generate();"
 # generate the TOC
 node_modules/.bin/markdown-toc --maxdepth=3 -i ./syllabus.md
