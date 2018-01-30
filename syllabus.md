@@ -358,10 +358,6 @@ No Class
 
 ### January 16th
 
-#### Assignment
-
-See [course_assignment/course_assignment_03_January_16.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_03_January_16.md)
-
 #### Discussion
 
 * **Review syllabus, go over any issues with the setup from last week.**
@@ -381,218 +377,31 @@ See [course_assignment/course_assignment_03_January_16.md](https://github.com/na
   * Javascript for interactions and DOM manipulations
   * Includes such as images and other media
 
-#### How a web page is created
+#### Notes
 
-##### HTML page structure
+See [course_assignment/course_notes_03_January_16.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_notes_03_January_16.md)
 
-```HTML
-<!DOCTYPE html> <!-- Document Type -->
-<html lang="en">
-<!-- Start instructions for page -->
-<head>
-    <!-- Page Encoding -->
-    <meta charset="UTF-8">
-    <!-- Title of page -->
-    <title>Title</title>
-    <!-- Link to a external stylesheet -->
-    <link rel="stylesheet" href="/link/to/a/style/sheet.css">
-    <!-- Link to a external JavaScript file -->
-    <script type="application/javascript" src="/link/to/a/page/blocking/js/file.js"></script>
-    <!-- Embedded JavaScript -->
-    <script type="application/javascript">
-      console.log('Hello World');
-    </script>
-</head>
-<!-- End instructions for page -->
-<!-- Start visual part of page -->
-<body>
-  <img src="/path/to/an/image.png" alt="This is the alt text for this image if it is missing." />
-  <p>Hello World</p>
-  <script type="application/javascript" src="/link/to/a/non/page/blocking/js/file.js"></script>
-</body>
-<!-- End visual part of page -->
-</html>
+#### Assignment
 
-```
-
-##### Parts
-
-###### Tags
-* They include paragraph, lists, tables, etc.
-* They either require open and close tags or are self closing
-    * Open and close: `<p>Hello World</p>`
-    * Self closing: `<img src="/path/to/an/image.png" alt="This is the alt text for this image if it is missing." />`
-* They have attributes: `<img src="image.png" alt="Alt text" />`, `src` and `alt` are attributes.
-
-###### DOCTYPE
-* Many different HTML DOCTYPE Declaration depending on the type of document https://www.w3.org/QA/2002/04/valid-dtd-list.html
-* **The standard now is the HTML5 DOCTYPE** `<!DOCTYPE html>`
-
-###### HTML
-  * Body and head are wrapped with `<html></html>`
-  * Sets the language of page with the `lang` attribute https://w3c.github.io/html/dom.html#the-lang-and-xmllang-attributes
-
-###### Head
-* Contained within `<head></head>`
-* Includes instructions for the page
-  * Example: `<meta charset="UTF-8">` Tells the browser to use `UTF-8` character encoding for the HTML page.
-* Include external CSS and JS
-* Meta tags used by browser, search spiders, screen readers, etc.  
-
-###### Body
-* Contains the visual output of the page
-* Contained within `<body></body>`
+See [course_assignment/course_assignment_03_January_16.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_03_January_16.md)
 
 
 - - -
 
-  ### January 18th
+### January 18th
 
 #### Discussion
   * Files for a web site
   * Structural / Semantic tags
+  * tables, lists, and links
+
+#### Notes
+
+See [course_assignment/course_notes_04_January_18.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_notes_04_January_18.md)
 
 #### Assignment
 
 See [course_assignment/course_assignment_04_January_18.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_04_January_18.md)
-
-
-#### Files for a web site
-
-##### Index
-
-* `index.html`, `index.php`, others depending on server language
-* Entry point of web site
-
-##### Cascading Style Sheet (CSS)
-
-* `.css` file extension
-* Holds styling for the site
-* Linked in the head typically with `<link rel="stylesheet" href="/link/to/css/file.css">`
-
-##### Javascript
-
-* `.js` file extension    
-* Might be library file or a custom script
-* Linked in the head or at the end of the body tags in the HTML with `<script src="/link/to/script.js"></script>`
-
-##### Other Files
-
-* `.htaccess` for Apache server instructions
-* `robots.txt` for instructions given to search engines http://www.robotstxt.org/
-* Verification files for 3rd party tools, ie. Google Analytics
-
-#### Structural / Semantic tags
-
-##### Structural Tags
-
-* Meant for layout of a web page
-* Typically are block elements
-* Give structure to pages
-* Used for header, footer, navigation, articles, etc.
-* Include `div`, `p`, `ul`, `ol`, `h1` &#8594; `h6`, `br`, `hr`, `table`, etc.
-
-##### Semantic Tags
-
-* Meant to describe elements
-* Used inside structural elements to give content more meaning
-* Typically bad practice to include structural elements inside a semantic tag: `<p><strong>I'm strong</strong></p>` rather than `<strong><p>I'm strong but invalid</p></strong>`
-* Include `em`, `strong`, `code`, `blockquote`, `span`, and many more  
-* Just pick the tag that seems the most appropriate
-
-##### Tables
-
-* Typically only of tabular data
-* Starts with `table` with rows `tr` that wrap a list of columns `td`
-* Head row has `th` column tags
-
-**Table example**
-
-```html
-<table>
-  <tr>
-    <th>Foo</th>
-    <th>Bar</th>
-    <th>Baz</th>
-  </tr>
-  <tr>
-    <td>Foo</td>
-    <td>Bar</td>
-    <td>Baz</td>
-  </tr>
-</table>
-
-```
-Makes:
-
-| Foo | Bar | Baz |
-|-----|-----|-----|
-| Foo | Bar | Baz |
-
-
-##### Lists
-
-* Unordered `ul` creates a bulleted list by default
-* Ordered `ol` create a numbered list by default
-* List items wrapped with `li` tags
-
-**Link example**
-
-```
-<ul>
-  <li>Foo</li>
-  <li>Bar</li>
-  <li>Bazz</li>
-</ul>
-
-<ol>
-  <li>Foo</li>
-  <li>Bar</li>
-  <li>Bazz</li>
-</ul>
-
-```
-
-Makes:
-
-* Foo
-* Bar
-* Bazz
-
-
-1. Foo
-2. Bar
-3. Bazz
-
-
-##### Links
-
-* Links can act as semantic or structural
-* Links can link to different pages and target specific place on a page
-* Links can target an app, open an email message, prompt a phone call, etc.
-
-**Link Examples**
-
-```html
-
-<!-- link to another page -->
-<a href-"/link/to/another/page.html">Link to another page</a>
-
-<!-- link to an external page -->
-<a href="https://google.com">Link to Google</a>
-
-<!-- link to a specific point on a page... -->
-<a href="#anchor">Link to an anchor</a>
-<!-- ...then at the point that the above should link to -->
-<a name="anchor" id="anchor"></a>
-
-<!-- link that opens an email -->
-<a href="mailto:somone@example.com">Link to Email</a>
-
-<!-- link to call a number -->
-<a href="tel:1234567890">Call a number</a>
-
-```
 
 
 - - -
@@ -601,13 +410,11 @@ Makes:
 
 #### Discussion
 
-##### Source Control
+* Source Control
 
-* Discussion on how to get code changes into the cloud on GitHub.
+#### Notes:
 
-![Atom to GitHub Desktop to GitHub](http://www.natenolting.com/wp-content/uploads/2018/01/source-code.png)
-
-[There are quite a few GIU tools for getting code into source control.](https://git-scm.com/download/gui/windows) When working with [GitHub](https://github.com/) it seems that the easiest route to take would be to use [Atom](https://atom.io/) for edits, then use [GitHub Desktop](https://desktop.github.com/) for interacting with your remote repository. The tools a developer picks to complete a task or solve a problem is largely immaterial as long as the end result is successful.
+See [course_assignment/course_notes_05_January_23.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_notes_05_January_23.md)
 
 #### Assignment:
 
@@ -620,87 +427,13 @@ See [course_assignment/course_assignment_05_January_23.md](https://github.com/na
 
 #### Discussion
 
-##### Types of Web images
+* Web images
 
-There are 4 main types of web images: `gif`, `jpeg`, `png` and `SVG`. Each has advantages and disadvantages over the others. The image type used depends on the situation. All file formats use the `img` tag with the `src` attribute being the path to the file. The `alt` attribute should be used incase the image file did not load.
+#### Notes
 
-```
-<img src="/path/to/your/image.jpg" alt="alternative text incase the image does not load" />
-```
+See [course_notes/course_notes_06_January_25.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_06_January_25.md)
 
-##### [GIF](https://en.wikipedia.org/wiki/GIF)
-
-* Gifs (Graphics Interchange Format) use the file extension `.gif`
-* They are typically used for small graphics or for images that only utilize a few colors.
-* They can be animated.
-* Gifs can contain anywhere from 2 - 256 colors. The greater the color count the larger the file size can be.
-* Can have an alpha channel with aliased transition between background and image without using a matte.
-  * When using a matte the selected color should match the background the image will be placed on.
-
-###### Example: 5 colors with no matte transparency:
-
-<div style="background: #000; margin: 10px; text-align: center; padding:10px;">
-![](http://www.natenolting.com/wp-content/uploads/2018/01/BAUD-3283-5-color-no-matte.gif)</div>
-
-###### Example: 5 colors with white matte transparency:
-
-<div style="background: #000; margin: 10px; text-align: center; padding:10px;">
-![](http://www.natenolting.com/wp-content/uploads/2018/01/BAUD-3283-5-color-white-matte.gif)</div>
-
-###### Example: 5 colors with black matte transparency:
-
-<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;">
-![](http://www.natenolting.com/wp-content/uploads/2018/01/BAUD-3283-5-color-black-matte.gif)</div>
-
-##### [JPEG](https://en.wikipedia.org/wiki/JPEG)
-
-* JPEGs (Joint Photographic Experts Group) are typically use for photo graphic images.
-* Can use either the `.jpg` pr `.jpeg` file extension.
-* Has no option for transparency
-* uses "lossy" compression when saving for web.
-* Image quality vs. file size should be kept in mind when saving jpeg files for web.
-
-###### Example: photographic image:
-
-<div style="background: #000; margin: 10px; text-align: center; padding:10px;">
-![](http://www.natenolting.com/wp-content/uploads/2018/01/paulandbabe.jpg)</div>
-
-##### [PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
-
-* PNGs (Portable Network Graphics) are typically used for graphics, logos and icons.
-* PNGs have the file extension `.png`
-* 24 bit PNG (png-24) files are similar to JPEGS but are "lossless".
-* 8 bit PNG (png-8) are like GIF images where the file can have colors from 2 to 256 colors.
-* Both can use an alpha channel and have smooth, antialiased edges.
-
-###### Example: 5 color png-8 with transparency:
-
-<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;">
-![](http://www.natenolting.com/wp-content/uploads/2018/01/BAUD-3283-5-color-transparent.png)</div>
-
-###### Example: png-24 with transparency:
-
-<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;">
-![](http://www.natenolting.com/wp-content/uploads/2018/01/BAUD-3283-24-bit-transparent.png)</div>
-
-##### [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
-
-* SVG (Scalable Vector Graphics) are text files made up of points and lines to create shapes.
-* Can be created in any vector art application or programmatically.
-* Useful if a graphic needs to be represented in many different sizes.
-* Will not loose quality when scaled.
-
-
-###### Example, same image scaled
-
-<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;"><img src="http://www.natenolting.com/wp-content/uploads/2018/01/Bemidji_State_Beavers_logo.svg" alt="Drawing" style="width: 50px;"/>
-</div>
-<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;"><img src="http://www.natenolting.com/wp-content/uploads/2018/01/Bemidji_State_Beavers_logo.svg" alt="Drawing" style="width: 200px;"/>
-</div>
-<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;"><img src="http://www.natenolting.com/wp-content/uploads/2018/01/Bemidji_State_Beavers_logo.svg" alt="Drawing" style="width: 450px;"/>
-</div>
-
-#### Assignment
+#### Assignment:
 
 See [course_assignment/course_assignment_06_January_25.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_06_January_25.md)
 
@@ -709,7 +442,45 @@ See [course_assignment/course_assignment_06_January_25.md](https://github.com/na
 
 ### January 30th
 
-TBA
+#### Discussion
+
+* **Tables**
+  * Used for tabular data
+  * Consists of rows and columns
+  * Tables have a head
+    `thead` tag wrapping a `tr` with `th` columns
+  * Tables have a body
+    * `tbody` tag wrapping a `tr` with `td` columns
+  * Space can be added to table with `cellpadding` and `cellspacing` table attributes.
+  * Cell and row spacing only recognizes `padding` for CSS
+  * Table columns will collapse to the widest length
+    * `display: table` in css can be used to center objects because of collapse.
+* **Forms**
+  * Used for sending data between pages and domains with the `action` attribute.
+  * can send requests over either `GET` or `POST` protocols with the `method` attribute.
+  * Various input types to capture use inputs: `text`, `textarea`, list `select`, `radio`, `checkbox`, etc.
+  * New input types added to HTML5 to target devices `tel`, `email`, `date`, `url`, `search` etc.
+  * Inputs grouped inside a `fieldset` structural tag.
+  * Inputs pair with a `label` tag for titling input.
+* **Other HTML elements**
+  * Comments, represented by `!<-- a comment -->`
+  * HTML5 brings in several structural elements that describe the page: `header`, `footer`, `sidebar`, `article`, `nav`, etc.
+  * iframes can be used to include content from other pages
+    * YouTube embed code uses iframe to load in embeddable videos.
+* **Other HTML attributes**
+  * `id` attribute used to identify elements on a page
+    * Must be unique.
+    * used for targeting a specific element min JS
+  * `class` attribute
+    * Used to add style classes to elements
+    * Also used for grouping elements together
+
+
+
+
+#### Notes
+
+See [course_notes/course_notes_07_January_30.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_07_January_30.md)
 
 #### Assignment:
 

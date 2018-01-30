@@ -301,6 +301,8 @@ You will maintain your own GitHub repository for your assignments.</p>
 <p>No Class</p>
 <hr>
 <h3 id="january-16th">January 16th</h3>
+<h4 id="assignment">Assignment</h4>
+<p>See <a href="https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_03_January_16.md">course_assignment/course_assignment_03_January_16.md</a></p>
 <h4 id="discussion">Discussion</h4>
 <ul>
 <li><strong>Review syllabus, go over any issues with the setup from last week.</strong></li>
@@ -392,11 +394,6 @@ You will maintain your own GitHub repository for your assignments.</p>
 <ul>
 <li>Contains the visual output of the page</li>
 <li>Contained within <code>&lt;body&gt;&lt;/body&gt;</code></li>
-</ul>
-<h4 id="assignment">Assignment</h4>
-<ul>
-<li>Read chapters 1-9 in <em>HTML and CSS: Design and Build Websites 1st Edition</em></li>
-<li>Setup Hosting Account and Git repository on GitHub, <strong>due before class on 1-18</strong></li>
 </ul>
 <hr>
 <h3 id="january-18th">January 18th</h3>
@@ -552,8 +549,77 @@ You will maintain your own GitHub repository for your assignments.</p>
 <p>See <a href="https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_05_January_23.md">course_assignment/course_assignment_05_January_23.md</a></p>
 <hr>
 <h3 id="january-25th">January 25th</h3>
-<h4 id="images-and-media">Images and media</h4>
-<h4 id="assignment-">Assignment:</h4>
+<h4 id="discussion">Discussion</h4>
+<h5 id="types-of-web-images">Types of Web images</h5>
+<p>There are 4 main types of web images: <code>gif</code>, <code>jpeg</code>, <code>png</code> and <code>SVG</code>. Each has advantages and disadvantages over the others. The image type used depends on the situation. All file formats use the <code>img</code> tag with the <code>src</code> attribute being the path to the file. The <code>alt</code> attribute should be used incase the image file did not load.</p>
+<pre><code>&lt;img src=&quot;/path/to/your/image.jpg&quot; alt=&quot;alternative text incase the image does not load&quot; /&gt;
+</code></pre><h5 id="-gif-https-en-wikipedia-org-wiki-gif-"><a href="https://en.wikipedia.org/wiki/GIF">GIF</a></h5>
+<ul>
+<li>Gifs (Graphics Interchange Format) use the file extension <code>.gif</code></li>
+<li>They are typically used for small graphics or for images that only utilize a few colors.</li>
+<li>They can be animated.</li>
+<li>Gifs can contain anywhere from 2 - 256 colors. The greater the color count the larger the file size can be.</li>
+<li>Can have an alpha channel with aliased transition between background and image without using a matte.<ul>
+<li>When using a matte the selected color should match the background the image will be placed on.</li>
+</ul>
+</li>
+</ul>
+<h6 id="example-5-colors-with-no-matte-transparency-">Example: 5 colors with no matte transparency:</h6>
+<div style="background: #000; margin: 10px; text-align: center; padding:10px;">
+<img src="http://www.natenolting.com/wp-content/uploads/2018/01/BAUD-3283-5-color-no-matte.gif" alt=""></div>
+
+<h6 id="example-5-colors-with-white-matte-transparency-">Example: 5 colors with white matte transparency:</h6>
+<div style="background: #000; margin: 10px; text-align: center; padding:10px;">
+<img src="http://www.natenolting.com/wp-content/uploads/2018/01/BAUD-3283-5-color-white-matte.gif" alt=""></div>
+
+<h6 id="example-5-colors-with-black-matte-transparency-">Example: 5 colors with black matte transparency:</h6>
+<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;">
+<img src="http://www.natenolting.com/wp-content/uploads/2018/01/BAUD-3283-5-color-black-matte.gif" alt=""></div>
+
+<h5 id="-jpeg-https-en-wikipedia-org-wiki-jpeg-"><a href="https://en.wikipedia.org/wiki/JPEG">JPEG</a></h5>
+<ul>
+<li>JPEGs (Joint Photographic Experts Group) are typically use for photo graphic images.</li>
+<li>Can use either the <code>.jpg</code> pr <code>.jpeg</code> file extension.</li>
+<li>Has no option for transparency</li>
+<li>uses &quot;lossy&quot; compression when saving for web.</li>
+<li>Image quality vs. file size should be kept in mind when saving jpeg files for web.</li>
+</ul>
+<h6 id="example-photographic-image-">Example: photographic image:</h6>
+<div style="background: #000; margin: 10px; text-align: center; padding:10px;">
+<img src="http://www.natenolting.com/wp-content/uploads/2018/01/paulandbabe.jpg" alt=""></div>
+
+<h5 id="-png-https-en-wikipedia-org-wiki-portable_network_graphics-"><a href="https://en.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a></h5>
+<ul>
+<li>PNGs (Portable Network Graphics) are typically used for graphics, logos and icons.</li>
+<li>PNGs have the file extension <code>.png</code></li>
+<li>24 bit PNG (png-24) files are similar to JPEGS but are &quot;lossless&quot;.</li>
+<li>8 bit PNG (png-8) are like GIF images where the file can have colors from 2 to 256 colors.</li>
+<li>Both can use an alpha channel and have smooth, antialiased edges.</li>
+</ul>
+<h6 id="example-5-color-png-8-with-transparency-">Example: 5 color png-8 with transparency:</h6>
+<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;">
+<img src="http://www.natenolting.com/wp-content/uploads/2018/01/BAUD-3283-5-color-transparent.png" alt=""></div>
+
+<h6 id="example-png-24-with-transparency-">Example: png-24 with transparency:</h6>
+<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;">
+<img src="http://www.natenolting.com/wp-content/uploads/2018/01/BAUD-3283-24-bit-transparent.png" alt=""></div>
+
+<h5 id="-svg-https-en-wikipedia-org-wiki-scalable_vector_graphics-"><a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a></h5>
+<ul>
+<li>SVG (Scalable Vector Graphics) are text files made up of points and lines to create shapes.</li>
+<li>Can be created in any vector art application or programmatically.</li>
+<li>Useful if a graphic needs to be represented in many different sizes.</li>
+<li>Will not loose quality when scaled.</li>
+</ul>
+<h6 id="example-same-image-scaled">Example, same image scaled</h6>
+<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;"><img src="http://www.natenolting.com/wp-content/uploads/2018/01/Bemidji_State_Beavers_logo.svg" alt="Drawing" style="width: 50px;"/>
+</div>
+<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;"><img src="http://www.natenolting.com/wp-content/uploads/2018/01/Bemidji_State_Beavers_logo.svg" alt="Drawing" style="width: 200px;"/>
+</div>
+<div style="background: #ccc; margin: 10px; text-align: center; padding:10px;"><img src="http://www.natenolting.com/wp-content/uploads/2018/01/Bemidji_State_Beavers_logo.svg" alt="Drawing" style="width: 450px;"/>
+</div>
+
+<h4 id="assignment">Assignment</h4>
 <p>See <a href="https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_06_January_25.md">course_assignment/course_assignment_06_January_25.md</a></p>
 <hr>
 <h3 id="january-30th">January 30th</h3>
