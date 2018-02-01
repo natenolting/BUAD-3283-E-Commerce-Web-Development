@@ -5,13 +5,14 @@
 
 ##### Intro to PHP
 
+* Current stable version is 7.2
 * [Wikipedia entry](https://en.wikipedia.org/wiki/PHP)
 * Created in 1995 by [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf) as _Personal Home Page_ (PHP).
 * By PHP 3 renamed to _PHP: Hypertext Preprocessor_ (PHP)
 * As of January 2013, PHP was used in more than 240 million websites (39% of those sampled) and was installed on 2.1 million web servers. <sup>[ref](https://en.wikipedia.org/wiki/PHP#cite_note-183)</sup>
   * Examples include Yahoo, Facebook, Wikipedia, Flickr, WordPress, SourceForge and MailChimp <sup>[ref](https://www.octalsoftware.com/blog/top-10-successful-websites-developed-php)</sup>  
   * https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
-* Most popular server side language on hared hosting accounts, like https://x10hosting.com/
+* Most popular server side language on shared hosting accounts, like https://x10hosting.com/
     * Usually bundled in a [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) stack (Linux, Apache, MySql, and PHP)
       * Windows [WAMP](http://www.wampserver.com/en/) and Mac [MAMP](https://www.mamp.info/en/) alternatives to run php locally
 * Resources for PHP
