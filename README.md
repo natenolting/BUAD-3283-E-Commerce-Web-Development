@@ -504,11 +504,13 @@ See [course_assignment/course_assignment_07_January_30.md](https://github.com/na
   * https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
 * Most popular server side language on hared hosting accounts, like https://x10hosting.com/
     * Usually bundled in a [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) stack (Linux, Apache, MySql, and PHP)
-      * Windows WAMP and Mac MAMP alternatives to run php locally
+      * Windows [WAMP](http://www.wampserver.com/en/) and Mac [MAMP](https://www.mamp.info/en/) alternatives to run php locally
 * Resources for PHP
   * [php.net](http://www.php.net/)
   * [r/PHP on Reddit](https://www.reddit.com/r/PHP/)
   * [r/PHPHelp on Reddit](https://www.reddit.com/r/PHPhelp/)
+  * [The New Boston's Youtube Playlist](http://www.youtube.com/course?list=EC442FA2C127377F07)
+  * [PHP Academy PHP Basics  Playlist](https://www.youtube.com/watch?v=XKWqdp17BFo&list=PLfdtiltiRHWHjTPiFDRdTOPtSyYfz3iLW)
   * **[PHP: The Right Way](http://www.phptherightway.com/)**
 * Editor / IDE
   * **[PhpStorm](https://www.jetbrains.com/phpstorm/)**
@@ -519,12 +521,9 @@ See [course_assignment/course_assignment_07_January_30.md](https://github.com/na
 
 #### Notes:
 
-
 See [course_notes/course_notes_08_February_01.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_08_February_01.md)
 
-
 #### Assignment:
-
 
 See [course_assignment/course_assignment_08_February_01.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_08_February_01.md)
 
