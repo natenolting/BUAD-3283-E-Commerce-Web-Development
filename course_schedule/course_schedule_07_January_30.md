@@ -21,7 +21,7 @@
   * Inputs grouped inside a `fieldset` structural tag.
   * Inputs pair with a `label` tag for titling input.
 * **Other HTML elements**
-  * Comments, represented by `!<-- a comment -->`
+  * Comments, represented by `<!-- a comment -->`
   * HTML5 brings in several structural elements that describe the page: `header`, `footer`, `sidebar`, `article`, `nav`, etc.
   * iframes can be used to include content from other pages
     * YouTube embed code uses iframe to load in embeddable videos.

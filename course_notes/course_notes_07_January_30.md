@@ -150,7 +150,7 @@ Table cells and rows will ignore margin but padding is ok to use. Css is prefere
 var forms = document.getElementsByTagName("form");
 console.log(forms.length)
 for (var i = 0; i < forms.length; i++) {
-    forms[i].style = "border: 3px solid magenta"
+    forms[i].style = "border: 3px solid magenta; display: block; visibility: visible"
 }
 ```
 
