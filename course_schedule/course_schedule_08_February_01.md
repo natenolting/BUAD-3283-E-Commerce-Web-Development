@@ -5,7 +5,6 @@
 
 ##### Intro to PHP
 
-* Current stable version is 7.2
 * [Wikipedia entry](https://en.wikipedia.org/wiki/PHP)
 * Created in 1995 by [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf) as _Personal Home Page_ (PHP).
 * By PHP 3 renamed to _PHP: Hypertext Preprocessor_ (PHP)
@@ -16,7 +15,7 @@
     * Usually bundled in a [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) stack (Linux, Apache, MySql, and PHP)
       * Windows [WAMP](http://www.wampserver.com/en/) and Mac [MAMP](https://www.mamp.info/en/) alternatives to run php locally
 * Resources for PHP
-  * [php.net](http://www.php.net/)
+  * [php.net](http://www.php.net/manual/en/)
   * [r/PHP on Reddit](https://www.reddit.com/r/PHP/)
   * [r/PHPHelp on Reddit](https://www.reddit.com/r/PHPhelp/)
   * [The New Boston's Youtube Playlist](http://www.youtube.com/course?list=EC442FA2C127377F07)
