@@ -496,7 +496,7 @@ See [course_assignment/course_assignment_07_January_30.md](https://github.com/na
 
 ##### Intro to PHP
 
-* [Wikipedia entry](https://en.wikipedia.org/wiki/PHP}
+* [Wikipedia entry](https://en.wikipedia.org/wiki/PHP)
 * Created in 1995 by [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf) as _Personal Home Page_ (PHP).
 * By PHP 3 renamed to _PHP: Hypertext Preprocessor_ (PHP)
 * As of January 2013, PHP was used in more than 240 million websites (39% of those sampled) and was installed on 2.1 million web servers. <sup>[ref](https://en.wikipedia.org/wiki/PHP#cite_note-183)</sup>
