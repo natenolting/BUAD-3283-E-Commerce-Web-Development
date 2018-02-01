@@ -491,17 +491,40 @@ See [course_assignment/course_assignment_07_January_30.md](https://github.com/na
 
 ### February 1st
 
-TBA
-    
 
-####Notes:
-    
+#### Discussion
+
+##### Intro to PHP
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/PHP}
+* Created in 1995 by [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf) as _Personal Home Page_ (PHP).
+* By PHP 3 renamed to _PHP: Hypertext Preprocessor_ (PHP)
+* As of January 2013, PHP was used in more than 240 million websites (39% of those sampled) and was installed on 2.1 million web servers. <sup>[ref](https://en.wikipedia.org/wiki/PHP#cite_note-183)</sup>
+  * Examples include Yahoo, Facebook, Wikipedia, Flickr, WordPress, SourceForge and MailChimp <sup>[ref](https://www.octalsoftware.com/blog/top-10-successful-websites-developed-php)</sup>  
+  * https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
+* Most popular server side language on hared hosting accounts, like https://x10hosting.com/
+    * Usually bundled in a [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) stack (Linux, Apache, MySql, and PHP)
+      * Windows WAMP and Mac MAMP alternatives to run php locally
+* Resources for PHP
+  * [php.net](http://www.php.net/)
+  * [r/PHP on Reddit](https://www.reddit.com/r/PHP/)
+  * [r/PHPHelp on Reddit](https://www.reddit.com/r/PHPhelp/)
+  * **[PHP: The Right Way](http://www.phptherightway.com/)**
+* Editor / IDE
+  * **[PhpStorm](https://www.jetbrains.com/phpstorm/)**
+    * **You can get a free license for PHPStorm wit your student email address!**
+  * [Atom](https://atom.io/) with the [IDE-PHP package](https://atom.io/packages/ide-php)
+  * [Netbeans](https://netbeans.org/downloads/index.html) (download the PHP version)
+  * [SublimeText](https://www.sublimetext.com/) with the [PHP Completions package Kit](https://packagecontrol.io/packages/PHP%20Completions%20Kit)
+
+#### Notes:
+
 
 See [course_notes/course_notes_08_February_01.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_08_February_01.md)
-    
 
-####Assignment:
-    
+
+#### Assignment:
+
 
 See [course_assignment/course_assignment_08_February_01.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_08_February_01.md)
 
@@ -513,13 +536,13 @@ See [course_assignment/course_assignment_08_February_01.md](https://github.com/n
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_09_February_06.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_09_February_06.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_09_February_06.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_09_February_06.md)
@@ -532,13 +555,13 @@ See [course_assignment/course_assignment_09_February_06.md](https://github.com/n
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_10_February_08.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_10_February_08.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_10_February_08.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_10_February_08.md)
@@ -551,13 +574,13 @@ See [course_assignment/course_assignment_10_February_08.md](https://github.com/n
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_11_February_13.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_11_February_13.md)
@@ -570,13 +593,13 @@ See [course_assignment/course_assignment_11_February_13.md](https://github.com/n
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_12_February_15.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_12_February_15.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_12_February_15.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_12_February_15.md)
@@ -589,13 +612,13 @@ See [course_assignment/course_assignment_12_February_15.md](https://github.com/n
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_13_February_20.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_13_February_20.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_13_February_20.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_13_February_20.md)
@@ -608,13 +631,13 @@ See [course_assignment/course_assignment_13_February_20.md](https://github.com/n
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_14_February_22.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_14_February_22.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_14_February_22.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_14_February_22.md)
@@ -627,13 +650,13 @@ See [course_assignment/course_assignment_14_February_22.md](https://github.com/n
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_15_February_27.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_15_February_27.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_15_February_27.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_15_February_27.md)
@@ -646,13 +669,13 @@ See [course_assignment/course_assignment_15_February_27.md](https://github.com/n
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_16_March_01.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_16_March_01.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_16_March_01.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_16_March_01.md)
@@ -665,13 +688,13 @@ See [course_assignment/course_assignment_16_March_01.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_17_March_06.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_17_March_06.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_17_March_06.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_17_March_06.md)
@@ -684,13 +707,13 @@ See [course_assignment/course_assignment_17_March_06.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_18_March_08.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_18_March_08.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_18_March_08.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_18_March_08.md)
@@ -703,13 +726,13 @@ See [course_assignment/course_assignment_18_March_08.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_19_March_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_19_March_13.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_19_March_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_19_March_13.md)
@@ -722,13 +745,13 @@ See [course_assignment/course_assignment_19_March_13.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_20_March_15.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_20_March_15.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_20_March_15.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_20_March_15.md)
@@ -741,13 +764,13 @@ See [course_assignment/course_assignment_20_March_15.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_21_March_20.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_21_March_20.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_21_March_20.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_21_March_20.md)
@@ -760,13 +783,13 @@ See [course_assignment/course_assignment_21_March_20.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_22_March_22.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_22_March_22.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_22_March_22.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_22_March_22.md)
@@ -779,13 +802,13 @@ See [course_assignment/course_assignment_22_March_22.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_23_March_27.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_23_March_27.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_23_March_27.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_23_March_27.md)
@@ -798,13 +821,13 @@ See [course_assignment/course_assignment_23_March_27.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_24_March_29.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_24_March_29.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_24_March_29.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_24_March_29.md)
@@ -817,13 +840,13 @@ See [course_assignment/course_assignment_24_March_29.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_25_April_03.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_25_April_03.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_25_April_03.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_25_April_03.md)
@@ -836,13 +859,13 @@ See [course_assignment/course_assignment_25_April_03.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_26_April_05.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_26_April_05.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_26_April_05.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_26_April_05.md)
@@ -855,13 +878,13 @@ See [course_assignment/course_assignment_26_April_05.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_27_April_10.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_27_April_10.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_27_April_10.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_27_April_10.md)
@@ -874,13 +897,13 @@ See [course_assignment/course_assignment_27_April_10.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_28_April_12.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_28_April_12.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_28_April_12.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_28_April_12.md)
@@ -893,13 +916,13 @@ See [course_assignment/course_assignment_28_April_12.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_29_April_17.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_29_April_17.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_29_April_17.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_29_April_17.md)
@@ -912,13 +935,13 @@ See [course_assignment/course_assignment_29_April_17.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_30_April_19.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_30_April_19.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_30_April_19.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_30_April_19.md)
@@ -931,13 +954,13 @@ See [course_assignment/course_assignment_30_April_19.md](https://github.com/nate
 TBA
     
 
-####Notes:
+#### Notes:
     
 
 See [course_notes/course_notes_31_April_24.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_31_April_24.md)
     
 
-####Assignment:
+#### Assignment:
     
 
 See [course_assignment/course_assignment_31_April_24.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_31_April_24.md)
