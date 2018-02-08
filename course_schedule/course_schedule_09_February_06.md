@@ -18,6 +18,9 @@
   * Adding items to a customers shopping carts
   * Saving a customer login to store account
   * Personalizing a customer's experience on a site (logged in customer vs guest)
+* Special security concerns with sessions
+  * [Cross-Site Request Forgery (CSRF)](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF))
+  * [Session hijacking](https://en.wikipedia.org/wiki/Session_hijacking)
 * Example / "How to" Links
   * https://stackoverflow.com/questions/5926677/session-handling-for-an-e-commerce-website
   * https://www.tutorialrepublic.com/php-tutorial/php-sessions.php

@@ -467,7 +467,35 @@ You will maintain your own GitHub repository for your assignments.</p>
 <p>See <a href="https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_08_February_01.md">course_assignment/course_assignment_08_February_01.md</a></p>
 <hr>
 <h3 id="february-6th">February 6th</h3>
-<p>TBA</p>
+<h4 id="discussion">Discussion</h4>
+<h5 id="review-request-methods">Review Request methods</h5>
+<h5 id="intro-to-php-sessions">Intro to PHP Sessions</h5>
+<ul>
+<li><a href="http://php.net/manual/en/session.examples.basic.php">What is a PHP Session?</a><ul>
+<li>Sessions are a simple way to store data for individual users against a unique session ID. <sup><a href="http://php.net/manual/en/session.examples.basic.php">ref</a></sup></li>
+<li>Started up with the <code>session_start()</code> function.<ul>
+<li>A cookie is written to users browser cookies with the session id tied to the user session.</li>
+<li>No output headers can be sent before <code>session_start()</code> or the <code>Warning: session_start(): Cannot send xyz - headers already sent</code> will be thrown.</li>
+</ul>
+</li>
+<li>Unlike requests like <code>GET</code> and <code>POST</code> Sessions give a mechanism to have access to user variables over multiple pages.  </li>
+<li>Gives access to variables set to the <code>$_SESSION</code> global on next request</li>
+<li>Sessions normally shutdown automatically when PHP is finished executing a script, but can be manually shutdown using the <code>session_write_close()</code> function. <sup><a href="http://php.net/manual/en/session.examples.basic.php">ref</a></sup></li>
+</ul>
+</li>
+<li>Why would we need session for E-Commerce Web Development?<ul>
+<li>Adding items to a customers shopping carts</li>
+<li>Saving a customer login to store account</li>
+<li>Personalizing a customer&#39;s experience on a site (logged in customer vs guest)</li>
+</ul>
+</li>
+<li>Example / &quot;How to&quot; Links<ul>
+<li><a href="https://stackoverflow.com/questions/5926677/session-handling-for-an-e-commerce-website">https://stackoverflow.com/questions/5926677/session-handling-for-an-e-commerce-website</a></li>
+<li><a href="https://www.tutorialrepublic.com/php-tutorial/php-sessions.php">https://www.tutorialrepublic.com/php-tutorial/php-sessions.php</a></li>
+<li><a href="https://www.eduonix.com/blog/web-programming-tutorials/learn-working-with-sessions-in-php/">https://www.eduonix.com/blog/web-programming-tutorials/learn-working-with-sessions-in-php/</a></li>
+</ul>
+</li>
+</ul>
 <h4 id="notes-">Notes:</h4>
 <p>See <a href="https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_09_February_06.md">course_notes/course_notes_09_February_06.md</a></p>
 <h4 id="assignment-">Assignment:</h4>
