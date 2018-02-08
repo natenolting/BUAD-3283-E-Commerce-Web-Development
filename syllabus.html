@@ -507,7 +507,87 @@ You will maintain your own GitHub repository for your assignments.</p>
 <p>See <a href="https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_09_February_06.md">course_assignment/course_assignment_09_February_06.md</a></p>
 <hr>
 <h3 id="february-8th">February 8th</h3>
-<p>TBA</p>
+<h4 id="cascading-style-sheets-css-">Cascading Style Sheets (CSS)</h4>
+<h5 id="-what-is-css-https-developer-mozilla-org-en-us-docs-web-css-"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">What is CSS</a></h5>
+<ul>
+<li>Instructions to a browser on how to &quot;paint&quot; the output HTML to the screen</li>
+<li>Can be included in three ways: linked to a <code>.css</code> file, defined in the <code>head</code> tag inside a <code>style</code> tag, or inlined on a element with a <code>style</code> attribute.<ul>
+<li>Styles in the <code>head</code> override styles in a linked <code>.css</code> file, styles inlined in a <code>style</code> attribute will override styles in the head and linked styles.</li>
+<li>Linked or <code>head</code> styles are accessed through the <code>class</code> attribute on any html element.</li>
+</ul>
+</li>
+</ul>
+<h5 id="basic-css-style-declarations">Basic CSS Style Declarations</h5>
+<h6 id="declaring-for-an-element-">Declaring for an element:</h6>
+<pre><code class="lang-css">p {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+</code></pre>
+<h6 id="declaring-as-a-class-">Declaring as a class:</h6>
+<pre><code class="lang-css">.paragraph {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #000;
+}
+</code></pre>
+<h6 id="declaring-as-an-id-">Declaring as an id:</h6>
+<pre><code class="lang-css">#paragraph {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+</code></pre>
+<p><strong>Note:</strong> <a href="https://www.freecodecamp.org/challenges/override-class-declarations-by-styling-id-attributes">Declaring css on an id is very difficult to override.</a> It&#39;s generally bad practice to apply css to an id unless absolutely necessary.</p>
+<h6 id="declaring-as-a-pseudo-class-">Declaring as a pseudo class:</h6>
+<pre><code class="lang-css">.paragraph:hover {
+  /** Hovering over this element will change its color  **/
+  color: #ccc;
+}
+</code></pre>
+<h5 id="css-stylesheet-hierarchy">CSS Stylesheet Hierarchy</h5>
+<ul>
+<li>Classes can be generic <code>.txt-bold {}</code></li>
+<li>Classes can be chained <code>.paragraph .img {}</code></li>
+</ul>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th style="text-align:left">Type</th>
+<th style="text-align:left">Example</th>
+<th style="text-align:left">Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">element</td>
+<td style="text-align:left"><code>p {}</code></td>
+<td style="text-align:left"><code>&lt;p&gt;Lorem ipsom...&lt;/p&gt;</code></td>
+</tr>
+<tr>
+<td style="text-align:left">generic</td>
+<td style="text-align:left"><code>.paragraph {}</code></td>
+<td style="text-align:left"><code>&lt;p class=&quot;paragraph&quot;&gt;Lorem ipsom...&lt;/p&gt;</code></td>
+</tr>
+<tr>
+<td style="text-align:left">chained</td>
+<td style="text-align:left"><code>.paragraph.bold {}</code></td>
+<td style="text-align:left"><code>&lt;p class=&quot;paragraph bold&quot;&gt;Lorem ipsom...&lt;/p&gt;</code></td>
+</tr>
+<tr>
+<td style="text-align:left">child</td>
+<td style="text-align:left"><code>.paragraph .img {}</code></td>
+<td style="text-align:left"><code>&lt;p class=&quot;paragraph&quot;&gt;Lorem ipsom &lt;img class=&quot;img&quot; src=&quot;img.png&quot; /&gt;&lt;/p&gt;</code></td>
+</tr>
+<tr>
+<td style="text-align:left">pseudo</td>
+<td style="text-align:left"><code>.paragraph:hover {}</code></td>
+<td style="text-align:left"><code>&lt;p class=&quot;paragraph&quot;&gt;Lorem ipsom&lt;/p&gt;</code></td>
+</tr>
+</tbody>
+</table>
 <h4 id="notes-">Notes:</h4>
 <p>See <a href="https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_10_February_08.md">course_notes/course_notes_10_February_08.md</a></p>
 <h4 id="assignment-">Assignment:</h4>

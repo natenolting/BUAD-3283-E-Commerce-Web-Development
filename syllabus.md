@@ -628,8 +628,6 @@ p {
 ```
 
 ##### CSS Stylesheet Hierarchy
-  * Classes can be generic `.txt-bold {}`
-  * Classes can be chained `.paragraph .img {}`
 
 | Type           | Example               | Usage                                                                           |
 | :------------- | :-------------------- | :-------------------------------------------------------------------------------|
