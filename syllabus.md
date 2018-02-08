@@ -580,9 +580,10 @@ See [course_assignment/course_assignment_09_February_06.md](https://github.com/n
 ##### [What is CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 * Instructions to a browser on how to "paint" the output HTML to the screen
-* Can be included in three ways: linked to a `.css` file, defined in the `head` tag inside a `style` tag, or inlined on a element with a `style` attribute.
+* Can be included in three ways: linked to a `.css` file defined in the `head` tag inside a `style` tag, or inlined on a element with a `style` attribute.
   * Styles in the `head` override styles in a linked `.css` file, styles inlined in a `style` attribute will override styles in the head and linked styles.
   * Linked or `head` styles are accessed through the `class` attribute on any html element.
+* A css file can be a `.php` file if the header `header("Content-type: text/css; charset: UTF-8");`  is added to the `,php` file. <sup>[ref](https://css-tricks.com/css-variables-with-php/)</sup>
 
 ##### Basic CSS Style Declarations
 
