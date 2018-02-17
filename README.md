@@ -27,6 +27,7 @@ Tuesday/Thursday 2:00-3:15 p.m.
 - [Extra Credit](#extra-credit)
 - [Assigned Reading](#assigned-reading)
 - [Assignments](#assignments)
+  * [Major class project](#major-class-project)
 - [Midterm and Final](#midterm-and-final)
   * [Note](#note-1)
 - [Authorized Absences](#authorized-absences)
@@ -285,6 +286,15 @@ There may be multiple readings each week. Readings may consist of chapters from 
 ## Assignments
 
 There will be multiple mini assignments that will be turned in through Github. These assignments will be due 12:01 a.m. on the Tuesday or Thursday the assignment it due unless specified in the Course Assignments.
+
+### Major class project
+
+**80%** of your grade is going to based on a final class project. A proposal for this web project will be due March 8th, 2018 and the finished product will be due by April 17th, 2018. The project will be presented to the class April 19th & 24th, 2018.
+
+This final project should include:
+
+* Session and request handling
+*
 
 
 - - -
@@ -657,38 +667,42 @@ See [course_assignment/course_assignment_10_February_08.md](https://github.com/n
 
 ### February 13th
 
-TBA
-    
+#### Discussion
 
-#### Notes:
-    
+Navigation elements.
 
-See [course_notes/course_notes_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_11_February_13.md)
-    
 
-#### Assignment:
-    
+<!-- #### Notes: -->
 
-See [course_assignment/course_assignment_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_11_February_13.md)
+
+<!-- See [course_notes/course_notes_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_11_February_13.md) -->
+
+
+<!-- #### Assignment: -->
+
+
+<!-- See [course_assignment/course_assignment_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_11_February_13.md) -->
 
 
 - - -
 
 ### February 15th
 
-TBA
-    
+#### Discussion
 
-#### Notes:
-    
+Includes and templates.
 
-See [course_notes/course_notes_12_February_15.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_12_February_15.md)
-    
 
-#### Assignment:
-    
+<!-- #### Notes: -->
 
-See [course_assignment/course_assignment_12_February_15.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_12_February_15.md)
+
+<!-- See [course_notes/course_notes_12_February_15.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_12_February_15.md) -->
+
+
+<!-- #### Assignment: -->
+
+
+<!-- See [course_assignment/course_assignment_12_February_15.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_12_February_15.md) -->
 
 
 - - -
