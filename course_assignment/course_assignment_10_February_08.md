@@ -6,7 +6,7 @@ Read Chapters 10-17 in *HTML and CSS: Design and Build Websites 1st Edition*
 
 ## Exercise
 
-* Continue working on session handling from `assignments/January_30`.
+* Continue working on session handling from `assignments/February_06`.
 
 ### Html & CSS
 **Due February 15th. If you run into snags ask for help before this date.**
