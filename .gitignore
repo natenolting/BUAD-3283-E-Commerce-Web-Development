@@ -3,3 +3,12 @@ vendor/
 node_modules/
 bower_components/
 .env
+
+getUid.php
+dock-helpers.sh
+dock.sh
+docker-compose.yml
+docker-jenkins-start.sh
+lighthouse.sh
+stacks.sh
+update_docker_assets_file.sh
