@@ -78,13 +78,15 @@ WWW environment, browsers, Web 2.0, Ajax Client and programming techniques. Majo
 
 ## Contact Info
 
-|                  |                                    |
-|------------------|------------------------------------|
-| **Instructor**   | Nate Nolting                       |
-| **Office**       | Paul Bunyan Communications         |
-| **Phone**        | 218-444-1107 (only in emergencies) |
-| **Email**        | natebsu@gmail.com                  |
-| **Office Hours** | 30 minutes after class             |
+|                           |                                                           |
+|---------------------------|-----------------------------------------------------------|
+| **Instructor**            | Nate Nolting                                              |
+| **Office**                | Paul Bunyan Communications                                |
+| **Phone**                 | 218-444-1107 (only in emergencies)                        |
+| **Email**                 | nnolting@bemidjistate.edu                                 |
+| **Office Hours**          | 30 minutes after class                                    |
+| **Directory List**        | https://www.bemidjistate.edu/directory/facstaff/xu9472sd/ |
+| **Rate My Professors**    | http://www.ratemyprofessors.com/AddRating.jsp?tid=2345075 |
 
 
 - - -
@@ -285,23 +287,36 @@ There may be multiple readings each week. Readings may consist of chapters from 
 
 ## Assignments
 
-There will be multiple mini assignments that will be turned in through Github. These assignments will be due 12:01 a.m. on the Tuesday or Thursday the assignment it due unless specified in the Course Assignments.
+**20%** of your grade will come from multiple mini assignments that will be turned in to Github. These assignments will be due 12:01 a.m. on the day the assignment it due unless specified in the [Course Assignments]('https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/tree/spring2018/course_assignment').
 
 ### Major class project
 
-**80%** of your grade is going to based on a final class project. A proposal for this web project will be due March 8th, 2018 and the finished product will be due by April 17th, 2018. The project will be presented to the class April 19th & 24th, 2018.
+**80%** of your grade is going to based on a final class project.
 
-This final project should include:
+* Proposal for this web project will be due March 8th, 2018
+* Finished product will be due by April 17th, 2018.
+* The project will be presented to the class April 19th & 24th, 2018.
 
+#### Your proposal for this final project should include:
+
+* A business plan
+* Purpose of web project as it relates to your business plan
+
+#### This final project will be graded on:
+
+* Execution of business plan goals
+* Style and aesthetics
+* Modularizing elements
+* [Site  accessibility](https://developers.google.com/web/fundamentals/accessibility/)
+* [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) code
 * Session and request handling
-*
 
 
 - - -
 
 ## Midterm and Final
 
-There will be a midterm project that will be due at a date to be assigned by the instructor.  The final examination will actually be the completion of the project that you will be working on throughout the entire semester.  This means it is **VERY IMPORTANT** to keep up with what is required for the project, and not wait until the last minute to try to do everything. This is your warning.
+The midterm will be a final project proposal due at a date to be assigned by the instructor.  The final examination will be the completion and presentation of the project that is defined in your midterm proposal. The final project will be expected to implement elements discussed throughout the semester. This means it is **VERY IMPORTANT** to keep up with what is required for the project, and not wait until the last minute to try to do everything. This is your warning.
 
 ### Note
 The professor reserves the right to offer unannounced quizzes and assignments, and/or activities at any time.
@@ -671,17 +686,14 @@ See [course_assignment/course_assignment_10_February_08.md](https://github.com/n
 
 Navigation elements.
 
+#### Notes:
 
-<!-- #### Notes: -->
-
-
-<!-- See [course_notes/course_notes_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_11_February_13.md) -->
+See [course_notes/course_notes_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_notes/course_notes_11_February_13.md)
 
 
-<!-- #### Assignment: -->
+#### Assignment:
 
-
-<!-- See [course_assignment/course_assignment_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_11_February_13.md) -->
+See [course_assignment/course_assignment_11_February_13.md](https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development/blob/spring2018/course_assignment/course_assignment_11_February_13.md)
 
 
 - - -
