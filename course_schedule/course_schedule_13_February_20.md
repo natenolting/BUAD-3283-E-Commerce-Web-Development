@@ -1,3 +1,3 @@
 ### February 20th
 
-Lab day, continue working on the templating assignment.
+Lab time, continue working on template assignment.
