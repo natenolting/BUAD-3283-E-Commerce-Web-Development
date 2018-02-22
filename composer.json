@@ -1,0 +1,12 @@
+{
+    "name": "natenolting/buad-3283-e-commerce-web-development",
+    "authors": [
+        {
+            "name": "Nate Nolting",
+            "email": "nnolting@bemidjistate.edu"
+        }
+    ],
+    "description": "Sandbox site for class BUAD 3283 E-Commerce Web Development",
+    "license": "MIT",
+    "homepage": "https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development"
+}
