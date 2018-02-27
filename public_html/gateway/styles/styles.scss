@@ -1,0 +1,9 @@
+$topOffset: 20px;
+body {
+  padding-top: $topOffset;
+  padding-bottom: $topOffset;
+}
+
+.jumbotron {
+  margin-top: -$topOffset;
+}

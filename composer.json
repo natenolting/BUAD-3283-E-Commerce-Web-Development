@@ -1,12 +1,26 @@
 {
     "name": "natenolting/buad-3283-e-commerce-web-development",
+    "description": "Class sandbox for BAUD 3283",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nate Nolting",
-            "email": "nnolting@bemidjistate.edu"
+            "email": "me@natenolting.com"
         }
     ],
-    "description": "Sandbox site for class BUAD 3283 E-Commerce Web Development",
-    "license": "MIT",
-    "homepage": "https://github.com/natenolting/BUAD-3283-E-Commerce-Web-Development"
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*",
+        "vlucas/phpdotenv": "^2.4",
+        "authorizenet/authorizenet": ">=1.9.3",
+        "paulbunyannet/bandolier": "^1.6",
+        "illuminate/support": "^5.6"
+    },
+    "scripts": {
+      "docker-assets": [
+        "# Getting Docker Assets #",
+        "curl --silent https://raw.githubusercontent.com/paulbunyannet/bash/$(git ls-remote https://github.com/paulbunyannet/bash.git | grep HEAD | awk '{ print $1}')/docker/get_docker_assets.sh > get_docker_assets.sh; #",
+        "bash ${PWD}/get_docker_assets.sh"
+        ]
+      }
 }

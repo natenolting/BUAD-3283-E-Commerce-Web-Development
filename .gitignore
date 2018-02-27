@@ -1,9 +1,8 @@
 .idea
 vendor/
 node_modules/
-bower_components/
 .env
-
+env.php
 getUid.php
 dock-helpers.sh
 dock.sh
@@ -12,3 +11,6 @@ docker-jenkins-start.sh
 lighthouse.sh
 stacks.sh
 update_docker_assets_file.sh
+composer.phar
+.env.*.bk
+/get_docker_assets.sh
