@@ -12,15 +12,25 @@
         "php": ">=5.6",
         "ext-curl": "*",
         "vlucas/phpdotenv": "^2.4",
-        "authorizenet/authorizenet": ">=1.9.3",
         "paulbunyannet/bandolier": "^1.6",
-        "illuminate/support": "^5.6"
+        "illuminate/support": "^5.6",
+        "authorizenet/authorizenet": "~1.9.5"
     },
     "scripts": {
-      "docker-assets": [
-        "# Getting Docker Assets #",
-        "curl --silent https://raw.githubusercontent.com/paulbunyannet/bash/$(git ls-remote https://github.com/paulbunyannet/bash.git | grep HEAD | awk '{ print $1}')/docker/get_docker_assets.sh > get_docker_assets.sh; #",
-        "bash ${PWD}/get_docker_assets.sh"
+        "docker-assets": [
+            "# Getting Docker Assets #",
+            "curl --silent https://raw.githubusercontent.com/paulbunyannet/bash/$(git ls-remote https://github.com/paulbunyannet/bash.git | grep HEAD | awk '{ print $1}')/docker/get_docker_assets.sh > get_docker_assets.sh; #",
+            "bash ${PWD}/get_docker_assets.sh"
         ]
-      }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "require-dev": {
+        "fzaninotto/faker": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Baud3283\\": "src/Baud3283/"
+        }
+    }
 }

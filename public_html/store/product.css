@@ -1,0 +1,8 @@
+.product {
+  display: inline-block;
+  width: 33%; }
+  .product-image img {
+    max-width: 100%;
+    height: auto; }
+
+/*# sourceMappingURL=product.css.map */

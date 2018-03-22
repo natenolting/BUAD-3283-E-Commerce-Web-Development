@@ -1,0 +1,19 @@
+$columns: 3;
+
+.product {
+  display: inline-block;
+  width: floor(100% / $columns);
+  &-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  &-title {
+
+  }
+  &-description {
+
+  }
+  &-cost {
+
+  }
+}

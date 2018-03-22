@@ -1,6 +1,5 @@
 <?php
 require_once dirname(dirname(__DIR__)) . '/src/bootstrap.php';
-
 use net\authorize\api\contract\v1 as AnetAPI;
 use net\authorize\api\controller as AnetController;
 
@@ -8,8 +7,8 @@ define("AUTHORIZENET_LOG_FILE","phplog");
 
 // Common setup for API credentials
 $merchantAuthentication = new AnetAPI\MerchantAuthenticationType();
-$merchantAuthentication->setName($AUTHORIZE_NET_API_LOGIN_ID);
-$merchantAuthentication->setTransactionKey($AUTHORIZE_NET_TRANSACTION_KEY);
+$merchantAuthentication->setName(env('AUTHORIZE_NET_API_LOGIN_ID'));
+$merchantAuthentication->setTransactionKey(env('AUTHORIZE_NET_TRANSACTION_KEY'));
 $refId = 'ref' . time();
 
 // Create the payment data for a credit card
