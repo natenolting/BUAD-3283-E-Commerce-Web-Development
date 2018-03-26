@@ -5,3 +5,15 @@ temp.php
 .env
 .idea
 dist
+dock-helpers.sh
+dock.sh
+docker-compose.yml
+docker-jenkins-start.yml
+docker-jenkins-start.sh
+env.php
+get_docker_assets.sh.log
+getUid.php
+lighthouse.sh
+stacks.sh
+update_docker_assets_file.sh
+vendor.zip
