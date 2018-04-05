@@ -1,0 +1,23 @@
+.alert {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  opacity: .8;
+  text-align: center;
+  width: 90%;
+  margin: 0 0 0 5%;
+
+  &-success, &-error {
+    color: white;
+    padding: 1% 5%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  &-success {
+    background: green;
+  }
+
+  &-error {
+    background: red;
+  }
+}

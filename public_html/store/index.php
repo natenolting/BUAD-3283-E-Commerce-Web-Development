@@ -1,39 +1,6 @@
 <?php
 require_once dirname(dirname(__DIR__)) . '/src/bootstrap.php';
-function generateFixture()
-{
-    $faker = \Faker\Factory::create();
-    $products = array_map(function ($e) use ($faker) {
-        $name = implode(' ', $faker->unique()->words(3));
-        $title = \Pbc\Bandolier\Type\Strings::formatForTitle($name);
-        return [
-            'id' => $faker->unique()->sha1,
-            'name' => $name,
-            'cost' => $faker->randomFloat(2, 10, 100),
-            'title' => $title,
-            'description' => $faker->unique()->paragraph,
-            'image' => "https://via.placeholder.com/300x400/" .
-                $faker->randomElement([
-                    'F27C32',
-                    '2A84EB',
-                    '273456'
-                ]) .
-                "/FFFFFF?text=" .
-                str_replace(' ', '+', $title),
-            'category' => $faker->randomElement([
-                'cat1',
-                'cat2',
-                'cat3'
-            ])
-        ];
 
-
-    }, array_fill(0, 9, 'fixture'));
-    $fh = fopen(__DIR__ . '/products.json', 'w');
-    fwrite($fh, json_encode($products));
-    fclose($fh);
-    return $products;
-}
 
 //generateFixture();
 //echo file_get_contents(__DIR__ . '/products.json');
@@ -70,25 +37,26 @@ $currentCart = [];
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <?php
     foreach (['success', 'error'] as $messageType) {
         if(isset($_SESSION[$messageType])) {
-            echo '<div class="alert-'. $messageType .'">' . $_SESSION[$messageType] . '</div>';
+            echo '<div class="alert"><div class="alert-'. $messageType .'">' . $_SESSION[$messageType] . '</div></div>';
             unset($_SESSION[$messageType]);
         }
     }
 ?>
-<div class="currentCart">
+<div class="cart">
     <?php
         if (isset($_SESSION['cart'])) {
             //var_dump($_SESSION['cart']);
             $currentCart = json_decode($_SESSION['cart']);
         }
-    echo "There are " . count($currentCart) . " items in your cart!";
-    var_dump($currentCart);
+    echo "<div class=\"cart-preview\"><i class=\"fas fa-shopping-cart\"></i> <span class=\"cart-preview-count\">" . count($currentCart) . "</span></div>";
+    //var_dump($currentCart);
     ?>
 </div>
 <div class="products">
