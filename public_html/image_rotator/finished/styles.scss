@@ -1,0 +1,24 @@
+body {
+  padding: 25px;
+  background: #76b2d7;
+  color: #1e1e1e;
+}
+
+.rotator {
+  &Container {
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &ImageContainer {
+    border: 3px solid #ffffff;
+    width: 100%;
+    display: block;
+    & > img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
